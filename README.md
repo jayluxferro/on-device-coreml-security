@@ -46,3 +46,16 @@ available with the paper.
 
 These are the vendor's intellectual property. The datasets reference them by
 name and path only.
+
+## License
+
+This artifact is licensed under the Creative Commons Attribution 4.0
+International license (CC BY 4.0). See `LICENSE` for the full legal text. In
+short: you may reuse, adapt, and redistribute it for any purpose provided you
+give appropriate credit.
+
+## Citation
+
+Please cite the paper. A machine-readable citation (`CITATION.cff`) is
+included; the arXiv DOI and URL are added to it once the preprint is
+published.

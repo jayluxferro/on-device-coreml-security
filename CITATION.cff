@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this artifact, please cite the paper."
+type: software
+title: "Harvesting Apple's Orchard: A Security Analysis of On-Device CoreML Models Across the Apple Ecosystem"
+authors:
+  - family-names: Agyemang
+    given-names: Justice Owusu
+  - family-names: Asante
+    given-names: Winifred Harriet
+  - family-names: Agyekum
+    given-names: Kwame Opuni-Boachie Obour
+  - family-names: Agyekum
+    given-names: Kwame Agyeman-Prempeh
+  - family-names: Acheampong
+    given-names: Francisca Adoma
+  - family-names: Kponyo
+    given-names: Jerry John
+license: CC-BY-4.0
+repository-code: "https://github.com/jayluxferro/on-device-coreml-security"
+# arXiv entry (DOI + URL) is appended once the preprint is published.
