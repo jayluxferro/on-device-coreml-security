@@ -1,11 +1,12 @@
 # Reproducibility Package — On-Device CoreML Security Analysis
 
-Anonymous artifact for a submission under review. This repository contains the
-tooling and measurement records needed to reproduce the paper's claims. It
-contains **no model weights, tokenizer vocabularies, or prompt assets** — those
-are the platform vendor's intellectual property and are excluded; the records
-reference models by name and path so a researcher with their own device or
-firmware image can rebuild the corpus.
+Companion repository for the paper *"Harvesting Apple's Orchard: A Security
+Analysis of On-Device CoreML Models Across the Apple Ecosystem."* This
+repository contains the tooling and measurement records needed to reproduce the
+paper's claims. It contains **no model weights, tokenizer vocabularies, or
+prompt assets** — those are the platform vendor's intellectual property and are
+excluded; the records reference models by name and path so a researcher with
+their own device or firmware image can rebuild the corpus.
 
 ## Contents
 
@@ -13,8 +14,10 @@ firmware image can rebuild the corpus.
 |---|---|
 | `harvest/` | model enumeration, the firmware-image extractor, the `.mlmodelc`→`.mlpackage` conversion pipeline, the static analyzer, the adversarial harness, the macOS-27 surface inventory, the DMG encryption sweep, and the MIL mutation harness |
 | `datasets/` | the adversarial evaluation records (82,094 JSONL rows in two schemas), the static-analysis records, the dated family census, the localization-layer index, the template and prompt indexes, and the crash/mutation logs |
-| `paper1/` | the LaTeX source and figure generator for the manuscript |
 | `poc/` | the crash-reproduction loader and the metadata-read proofs (no bundled model) |
+
+The manuscript source and figure generator are not duplicated here; they are
+available with the paper.
 
 ## Reproduce the headline results
 
@@ -25,7 +28,7 @@ firmware image can rebuild the corpus.
    82,094 records (77,396 `predict()` calls with a comparable output). The
    harness is `harvest/security_exhaustive.py`.
 3. **Conversion** — `harvest/mlmodelc_loader.py` turns a native `.mlmodelc`
-   bundle into a loadable `.mlpackage` via the public `<Apple>` tooling;
+   bundle into a loadable `.mlpackage` via the public tooling;
    `harvest/mil_text_parser.py` parses the native MIL text.
 4. **Crash** — `poc/load_model.swift` loads a user-supplied `.mlmodelc` through
    the public CoreML API; the `hand_gesture` bundle faults in `libBNNS` on
@@ -43,7 +46,3 @@ firmware image can rebuild the corpus.
 
 These are the vendor's intellectual property. The datasets reference them by
 name and path only.
-
-## Contact
-
-Via the submission system only.
