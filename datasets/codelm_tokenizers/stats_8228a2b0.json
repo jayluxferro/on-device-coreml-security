@@ -1,0 +1,950 @@
+{
+  "name": "safety_guardrail",
+  "vocab_size": 49152,
+  "max_id": 49151,
+  "type_counts": {
+    "USER_DEFINED": 1,
+    "UNUSED": 3,
+    "BYTE": 256
+  },
+  "normal_count": 48892,
+  "byte_token_count": 256,
+  "first_10": [
+    {
+      "id": 0,
+      "piece": "<pad>",
+      "type": "UNUSED"
+    },
+    {
+      "id": 1,
+      "piece": "</s>",
+      "type": "UNUSED"
+    },
+    {
+      "id": 2,
+      "piece": "<unk>",
+      "type": "USER_DEFINED"
+    },
+    {
+      "id": 3,
+      "piece": "<mask>",
+      "type": "UNUSED"
+    },
+    {
+      "id": 4,
+      "piece": "<n>",
+      "type": "NORMAL"
+    },
+    {
+      "id": 5,
+      "piece": "<0x00>",
+      "type": "BYTE"
+    },
+    {
+      "id": 6,
+      "piece": "<0x01>",
+      "type": "BYTE"
+    },
+    {
+      "id": 7,
+      "piece": "<0x02>",
+      "type": "BYTE"
+    },
+    {
+      "id": 8,
+      "piece": "<0x03>",
+      "type": "BYTE"
+    },
+    {
+      "id": 9,
+      "piece": "<0x04>",
+      "type": "BYTE"
+    }
+  ],
+  "last_10": [
+    {
+      "id": 49142,
+      "piece": "<extra_id_49142>",
+      "type": "NORMAL"
+    },
+    {
+      "id": 49143,
+      "piece": "<extra_id_49143>",
+      "type": "NORMAL"
+    },
+    {
+      "id": 49144,
+      "piece": "<extra_id_49144>",
+      "type": "NORMAL"
+    },
+    {
+      "id": 49145,
+      "piece": "<extra_id_49145>",
+      "type": "NORMAL"
+    },
+    {
+      "id": 49146,
+      "piece": "<extra_id_49146>",
+      "type": "NORMAL"
+    },
+    {
+      "id": 49147,
+      "piece": "<extra_id_49147>",
+      "type": "NORMAL"
+    },
+    {
+      "id": 49148,
+      "piece": "<extra_id_49148>",
+      "type": "NORMAL"
+    },
+    {
+      "id": 49149,
+      "piece": "<extra_id_49149>",
+      "type": "NORMAL"
+    },
+    {
+      "id": 49150,
+      "piece": "<extra_id_49150>",
+      "type": "NORMAL"
+    },
+    {
+      "id": 49151,
+      "piece": "<extra_id_49151>",
+      "type": "NORMAL"
+    }
+  ],
+  "angle_token_count": 413,
+  "angle_tokens": [
+    {
+      "id": 0,
+      "piece": "<pad>",
+      "type": "UNUSED",
+      "score": 0.0
+    },
+    {
+      "id": 1,
+      "piece": "</s>",
+      "type": "UNUSED",
+      "score": 0.0
+    },
+    {
+      "id": 2,
+      "piece": "<unk>",
+      "type": "USER_DEFINED",
+      "score": 0.0
+    },
+    {
+      "id": 3,
+      "piece": "<mask>",
+      "type": "UNUSED",
+      "score": 0.0
+    },
+    {
+      "id": 4,
+      "piece": "<n>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 5,
+      "piece": "<0x00>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 6,
+      "piece": "<0x01>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 7,
+      "piece": "<0x02>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 8,
+      "piece": "<0x03>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 9,
+      "piece": "<0x04>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 10,
+      "piece": "<0x05>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 11,
+      "piece": "<0x06>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 12,
+      "piece": "<0x07>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 13,
+      "piece": "<0x08>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 14,
+      "piece": "<0x09>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 15,
+      "piece": "<0x0A>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 16,
+      "piece": "<0x0B>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 17,
+      "piece": "<0x0C>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 18,
+      "piece": "<0x0D>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 19,
+      "piece": "<0x0E>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 20,
+      "piece": "<0x0F>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 21,
+      "piece": "<0x10>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 22,
+      "piece": "<0x11>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 23,
+      "piece": "<0x12>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 24,
+      "piece": "<0x13>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 25,
+      "piece": "<0x14>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 26,
+      "piece": "<0x15>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 27,
+      "piece": "<0x16>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 28,
+      "piece": "<0x17>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 29,
+      "piece": "<0x18>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 30,
+      "piece": "<0x19>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 31,
+      "piece": "<0x1A>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 32,
+      "piece": "<0x1B>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 33,
+      "piece": "<0x1C>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 34,
+      "piece": "<0x1D>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 35,
+      "piece": "<0x1E>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 36,
+      "piece": "<0x1F>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 37,
+      "piece": "<0x20>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 38,
+      "piece": "<0x21>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 39,
+      "piece": "<0x22>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 40,
+      "piece": "<0x23>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 41,
+      "piece": "<0x24>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 42,
+      "piece": "<0x25>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 43,
+      "piece": "<0x26>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 44,
+      "piece": "<0x27>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 45,
+      "piece": "<0x28>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 46,
+      "piece": "<0x29>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 47,
+      "piece": "<0x2A>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 48,
+      "piece": "<0x2B>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 49,
+      "piece": "<0x2C>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 50,
+      "piece": "<0x2D>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 51,
+      "piece": "<0x2E>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 52,
+      "piece": "<0x2F>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 53,
+      "piece": "<0x30>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 54,
+      "piece": "<0x31>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 55,
+      "piece": "<0x32>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 56,
+      "piece": "<0x33>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 57,
+      "piece": "<0x34>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 58,
+      "piece": "<0x35>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 59,
+      "piece": "<0x36>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 60,
+      "piece": "<0x37>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 61,
+      "piece": "<0x38>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 62,
+      "piece": "<0x39>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 63,
+      "piece": "<0x3A>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 64,
+      "piece": "<0x3B>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 65,
+      "piece": "<0x3C>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 66,
+      "piece": "<0x3D>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 67,
+      "piece": "<0x3E>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 68,
+      "piece": "<0x3F>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 69,
+      "piece": "<0x40>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 70,
+      "piece": "<0x41>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 71,
+      "piece": "<0x42>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 72,
+      "piece": "<0x43>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 73,
+      "piece": "<0x44>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 74,
+      "piece": "<0x45>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 75,
+      "piece": "<0x46>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 76,
+      "piece": "<0x47>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 77,
+      "piece": "<0x48>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 78,
+      "piece": "<0x49>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 79,
+      "piece": "<0x4A>",
+      "type": "BYTE",
+      "score": 0.0
+    }
+  ],
+  "extra_id_tokens": [
+    {
+      "id": 49016,
+      "piece": "<extra_id_49016>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 49017,
+      "piece": "<extra_id_49017>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 49018,
+      "piece": "<extra_id_49018>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 49019,
+      "piece": "<extra_id_49019>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 49020,
+      "piece": "<extra_id_49020>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 49021,
+      "piece": "<extra_id_49021>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 49022,
+      "piece": "<extra_id_49022>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 49023,
+      "piece": "<extra_id_49023>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 49024,
+      "piece": "<extra_id_49024>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 49025,
+      "piece": "<extra_id_49025>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 49026,
+      "piece": "<extra_id_49026>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 49027,
+      "piece": "<extra_id_49027>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 49028,
+      "piece": "<extra_id_49028>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 49029,
+      "piece": "<extra_id_49029>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 49030,
+      "piece": "<extra_id_49030>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 49031,
+      "piece": "<extra_id_49031>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 49032,
+      "piece": "<extra_id_49032>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 49033,
+      "piece": "<extra_id_49033>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 49034,
+      "piece": "<extra_id_49034>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 49035,
+      "piece": "<extra_id_49035>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 49036,
+      "piece": "<extra_id_49036>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 49037,
+      "piece": "<extra_id_49037>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 49038,
+      "piece": "<extra_id_49038>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 49039,
+      "piece": "<extra_id_49039>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 49040,
+      "piece": "<extra_id_49040>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 49041,
+      "piece": "<extra_id_49041>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 49042,
+      "piece": "<extra_id_49042>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 49043,
+      "piece": "<extra_id_49043>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 49044,
+      "piece": "<extra_id_49044>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 49045,
+      "piece": "<extra_id_49045>",
+      "type": "NORMAL",
+      "score": 0.0
+    }
+  ],
+  "extra_id_count": 136,
+  "byte_token_samples": [
+    {
+      "id": 5,
+      "piece": "<0x00>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 6,
+      "piece": "<0x01>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 7,
+      "piece": "<0x02>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 8,
+      "piece": "<0x03>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 9,
+      "piece": "<0x04>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 10,
+      "piece": "<0x05>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 11,
+      "piece": "<0x06>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 12,
+      "piece": "<0x07>",
+      "type": "BYTE",
+      "score": 0.0
+    }
+  ],
+  "turn_markers": [
+    {
+      "id": 49000,
+      "piece": "<turn_start>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 49001,
+      "piece": "<turn_end>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 49010,
+      "piece": "<executable_end>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 49012,
+      "piece": "<executable_results_end>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 49014,
+      "piece": "<image_end>",
+      "type": "NORMAL",
+      "score": 0.0
+    }
+  ],
+  "keyword_hits": {
+    "<pad>": true,
+    "</s>": true,
+    "<unk>": true,
+    "<mask>": true,
+    "<n>": true,
+    "<turn_end>": true,
+    "<turn_start>": true,
+    "Safe": true,
+    "Unsafe": false,
+    "CSEAI": false,
+    "Drugs": false,
+    "Gore": false,
+    "Harassment": false,
+    "Hate": false,
+    "Nudity": false,
+    "Self-harm": false,
+    "Terrorism": false,
+    "Toxic": false,
+    "Violence": false,
+    "Weapons": false,
+    "system": true,
+    "assistant": false,
+    "user": true,
+    "fim": false,
+    "FIM": false,
+    "<extra_id_0>": false,
+    "<extra_id_99>": false,
+    "<|endoftext|>": false,
+    "\u2581": true,
+    "\u0120": true,
+    "##": true,
+    "v_": false,
+    "q_": false,
+    "<fim_prefix>": false,
+    "<fill_me>": false
+  },
+  "scores": {
+    "min": -48738.0,
+    "max": 0.0,
+    "mean": -24164.239
+  },
+  "shortest_pieces": [
+    "\u2581",
+    "e",
+    "t",
+    "a",
+    "o",
+    "i",
+    "n",
+    "s",
+    "r",
+    "h",
+    "l",
+    "d",
+    "c",
+    "u",
+    "m",
+    "p",
+    "f",
+    "g",
+    "y",
+    "w"
+  ],
+  "longest_pieces": [
+    "<executable_results_start>",
+    "<executable_results_end>",
+    "<||image_placeholder||>",
+    "<spec_stream_pos_1>",
+    "<spec_stream_pos_2>",
+    "<spec_stream_pos_3>",
+    "<spec_stream_pos_4>",
+    "<executable_start>",
+    "\u2581\u2581\u2581\u2581\u2581\u2581\u2581\u2581\u2581\u2581\u2581\u2581\u2581\u2581\u2581\u2581",
+    "\u2581characteristics",
+    "................",
+    "\u2581recommendations",
+    "----------------",
+    "________________",
+    "\u2581representatives",
+    "\u2581straightforward",
+    "\u2581internationally",
+    "\u2581Representatives",
+    "\u2581differentiation",
+    "\u2581environmentally"
+  ]
+}

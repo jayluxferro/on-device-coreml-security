@@ -1,0 +1,962 @@
+{
+  "name": "generate_small_v1",
+  "vocab_size": 102400,
+  "max_id": 102399,
+  "type_counts": {
+    "USER_DEFINED": 1,
+    "UNUSED": 3,
+    "BYTE": 256
+  },
+  "normal_count": 102140,
+  "byte_token_count": 256,
+  "first_10": [
+    {
+      "id": 0,
+      "piece": "<pad>",
+      "type": "UNUSED"
+    },
+    {
+      "id": 1,
+      "piece": "</s>",
+      "type": "UNUSED"
+    },
+    {
+      "id": 2,
+      "piece": "<unk>",
+      "type": "USER_DEFINED"
+    },
+    {
+      "id": 3,
+      "piece": "<mask>",
+      "type": "UNUSED"
+    },
+    {
+      "id": 4,
+      "piece": "<n>",
+      "type": "NORMAL"
+    },
+    {
+      "id": 5,
+      "piece": "<0x00>",
+      "type": "BYTE"
+    },
+    {
+      "id": 6,
+      "piece": "<0x01>",
+      "type": "BYTE"
+    },
+    {
+      "id": 7,
+      "piece": "<0x02>",
+      "type": "BYTE"
+    },
+    {
+      "id": 8,
+      "piece": "<0x03>",
+      "type": "BYTE"
+    },
+    {
+      "id": 9,
+      "piece": "<0x04>",
+      "type": "BYTE"
+    }
+  ],
+  "last_10": [
+    {
+      "id": 102390,
+      "piece": "<extra_id_102390>",
+      "type": "NORMAL"
+    },
+    {
+      "id": 102391,
+      "piece": "<extra_id_102391>",
+      "type": "NORMAL"
+    },
+    {
+      "id": 102392,
+      "piece": "<extra_id_102392>",
+      "type": "NORMAL"
+    },
+    {
+      "id": 102393,
+      "piece": "<extra_id_102393>",
+      "type": "NORMAL"
+    },
+    {
+      "id": 102394,
+      "piece": "<extra_id_102394>",
+      "type": "NORMAL"
+    },
+    {
+      "id": 102395,
+      "piece": "<extra_id_102395>",
+      "type": "NORMAL"
+    },
+    {
+      "id": 102396,
+      "piece": "<extra_id_102396>",
+      "type": "NORMAL"
+    },
+    {
+      "id": 102397,
+      "piece": "<extra_id_102397>",
+      "type": "NORMAL"
+    },
+    {
+      "id": 102398,
+      "piece": "<extra_id_102398>",
+      "type": "NORMAL"
+    },
+    {
+      "id": 102399,
+      "piece": "<extra_id_102399>",
+      "type": "NORMAL"
+    }
+  ],
+  "angle_token_count": 2605,
+  "angle_tokens": [
+    {
+      "id": 0,
+      "piece": "<pad>",
+      "type": "UNUSED",
+      "score": 0.0
+    },
+    {
+      "id": 1,
+      "piece": "</s>",
+      "type": "UNUSED",
+      "score": 0.0
+    },
+    {
+      "id": 2,
+      "piece": "<unk>",
+      "type": "USER_DEFINED",
+      "score": 0.0
+    },
+    {
+      "id": 3,
+      "piece": "<mask>",
+      "type": "UNUSED",
+      "score": 0.0
+    },
+    {
+      "id": 4,
+      "piece": "<n>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 5,
+      "piece": "<0x00>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 6,
+      "piece": "<0x01>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 7,
+      "piece": "<0x02>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 8,
+      "piece": "<0x03>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 9,
+      "piece": "<0x04>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 10,
+      "piece": "<0x05>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 11,
+      "piece": "<0x06>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 12,
+      "piece": "<0x07>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 13,
+      "piece": "<0x08>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 14,
+      "piece": "<0x09>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 15,
+      "piece": "<0x0A>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 16,
+      "piece": "<0x0B>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 17,
+      "piece": "<0x0C>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 18,
+      "piece": "<0x0D>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 19,
+      "piece": "<0x0E>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 20,
+      "piece": "<0x0F>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 21,
+      "piece": "<0x10>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 22,
+      "piece": "<0x11>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 23,
+      "piece": "<0x12>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 24,
+      "piece": "<0x13>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 25,
+      "piece": "<0x14>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 26,
+      "piece": "<0x15>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 27,
+      "piece": "<0x16>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 28,
+      "piece": "<0x17>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 29,
+      "piece": "<0x18>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 30,
+      "piece": "<0x19>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 31,
+      "piece": "<0x1A>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 32,
+      "piece": "<0x1B>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 33,
+      "piece": "<0x1C>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 34,
+      "piece": "<0x1D>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 35,
+      "piece": "<0x1E>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 36,
+      "piece": "<0x1F>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 37,
+      "piece": "<0x20>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 38,
+      "piece": "<0x21>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 39,
+      "piece": "<0x22>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 40,
+      "piece": "<0x23>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 41,
+      "piece": "<0x24>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 42,
+      "piece": "<0x25>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 43,
+      "piece": "<0x26>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 44,
+      "piece": "<0x27>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 45,
+      "piece": "<0x28>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 46,
+      "piece": "<0x29>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 47,
+      "piece": "<0x2A>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 48,
+      "piece": "<0x2B>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 49,
+      "piece": "<0x2C>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 50,
+      "piece": "<0x2D>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 51,
+      "piece": "<0x2E>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 52,
+      "piece": "<0x2F>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 53,
+      "piece": "<0x30>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 54,
+      "piece": "<0x31>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 55,
+      "piece": "<0x32>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 56,
+      "piece": "<0x33>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 57,
+      "piece": "<0x34>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 58,
+      "piece": "<0x35>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 59,
+      "piece": "<0x36>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 60,
+      "piece": "<0x37>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 61,
+      "piece": "<0x38>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 62,
+      "piece": "<0x39>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 63,
+      "piece": "<0x3A>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 64,
+      "piece": "<0x3B>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 65,
+      "piece": "<0x3C>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 66,
+      "piece": "<0x3D>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 67,
+      "piece": "<0x3E>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 68,
+      "piece": "<0x3F>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 69,
+      "piece": "<0x40>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 70,
+      "piece": "<0x41>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 71,
+      "piece": "<0x42>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 72,
+      "piece": "<0x43>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 73,
+      "piece": "<0x44>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 74,
+      "piece": "<0x45>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 75,
+      "piece": "<0x46>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 76,
+      "piece": "<0x47>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 77,
+      "piece": "<0x48>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 78,
+      "piece": "<0x49>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 79,
+      "piece": "<0x4A>",
+      "type": "BYTE",
+      "score": 0.0
+    }
+  ],
+  "extra_id_tokens": [
+    {
+      "id": 100077,
+      "piece": "<extra_id_100077>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 100078,
+      "piece": "<extra_id_100078>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 100079,
+      "piece": "<extra_id_100079>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 100080,
+      "piece": "<extra_id_100080>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 100081,
+      "piece": "<extra_id_100081>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 100082,
+      "piece": "<extra_id_100082>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 100083,
+      "piece": "<extra_id_100083>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 100084,
+      "piece": "<extra_id_100084>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 100085,
+      "piece": "<extra_id_100085>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 100086,
+      "piece": "<extra_id_100086>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 100087,
+      "piece": "<extra_id_100087>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 100088,
+      "piece": "<extra_id_100088>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 100089,
+      "piece": "<extra_id_100089>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 100090,
+      "piece": "<extra_id_100090>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 100091,
+      "piece": "<extra_id_100091>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 100092,
+      "piece": "<extra_id_100092>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 100093,
+      "piece": "<extra_id_100093>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 100094,
+      "piece": "<extra_id_100094>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 100095,
+      "piece": "<extra_id_100095>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 100096,
+      "piece": "<extra_id_100096>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 100097,
+      "piece": "<extra_id_100097>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 100098,
+      "piece": "<extra_id_100098>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 100099,
+      "piece": "<extra_id_100099>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 100100,
+      "piece": "<extra_id_100100>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 100101,
+      "piece": "<extra_id_100101>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 100102,
+      "piece": "<extra_id_100102>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 100103,
+      "piece": "<extra_id_100103>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 100104,
+      "piece": "<extra_id_100104>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 100105,
+      "piece": "<extra_id_100105>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 100106,
+      "piece": "<extra_id_100106>",
+      "type": "NORMAL",
+      "score": 0.0
+    }
+  ],
+  "extra_id_count": 2323,
+  "byte_token_samples": [
+    {
+      "id": 5,
+      "piece": "<0x00>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 6,
+      "piece": "<0x01>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 7,
+      "piece": "<0x02>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 8,
+      "piece": "<0x03>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 9,
+      "piece": "<0x04>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 10,
+      "piece": "<0x05>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 11,
+      "piece": "<0x06>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 12,
+      "piece": "<0x07>",
+      "type": "BYTE",
+      "score": 0.0
+    }
+  ],
+  "turn_markers": [
+    {
+      "id": 100000,
+      "piece": "<turn_start>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 100001,
+      "piece": "<turn_end>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 100010,
+      "piece": "<executable_end>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 100012,
+      "piece": "<executable_results_end>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 100014,
+      "piece": "<image_end>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 100017,
+      "piece": "<audio_end>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 100019,
+      "piece": "<video_end>",
+      "type": "NORMAL",
+      "score": 0.0
+    }
+  ],
+  "keyword_hits": {
+    "<pad>": true,
+    "</s>": true,
+    "<unk>": true,
+    "<mask>": true,
+    "<n>": true,
+    "<turn_end>": true,
+    "<turn_start>": true,
+    "Safe": true,
+    "Unsafe": false,
+    "CSEAI": false,
+    "Drugs": false,
+    "Gore": false,
+    "Harassment": false,
+    "Hate": false,
+    "Nudity": false,
+    "Self-harm": false,
+    "Terrorism": false,
+    "Toxic": false,
+    "Violence": false,
+    "Weapons": false,
+    "system": true,
+    "assistant": false,
+    "user": true,
+    "fim": false,
+    "FIM": false,
+    "<extra_id_0>": false,
+    "<extra_id_99>": false,
+    "<|endoftext|>": false,
+    "\u2581": true,
+    "\u0120": false,
+    "##": true,
+    "v_": false,
+    "q_": false,
+    "<fim_prefix>": false,
+    "<fill_me>": false
+  },
+  "scores": {
+    "min": -99738.0,
+    "max": 0.0,
+    "mean": -48573.088
+  },
+  "shortest_pieces": [
+    "\u2581",
+    "e",
+    "a",
+    "t",
+    "o",
+    "i",
+    "n",
+    "s",
+    "r",
+    "l",
+    "d",
+    "h",
+    "c",
+    "u",
+    "m",
+    "p",
+    "g",
+    "\n",
+    "f",
+    "y"
+  ],
+  "longest_pieces": [
+    "requires_stored_property_inits",
+    "<executable_results_start>",
+    "<executable_results_end>",
+    "<||image_placeholder||>",
+    "<||video_placeholder||>",
+    "warn_unqualified_access",
+    "<spec_stream_pos_1>",
+    "<spec_stream_pos_2>",
+    "<spec_stream_pos_3>",
+    "<spec_stream_pos_4>",
+    "storageRestrictions",
+    "dynamicMemberLookup",
+    "<executable_start>",
+    "implementationOnly",
+    "discardableResult",
+    "UIApplicationMain",
+    "NSApplicationMain",
+    "<extra_id_100077>",
+    "<extra_id_100078>",
+    "<extra_id_100079>"
+  ]
+}

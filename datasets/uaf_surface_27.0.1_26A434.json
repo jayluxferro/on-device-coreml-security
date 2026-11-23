@@ -1,0 +1,643 @@
+{
+ "os_version": "27.0.1",
+ "os_build": "26A434",
+ "host": "arm64",
+ "families": [
+  {
+   "family": "CoreMotion_IMUFoundationModel",
+   "bundles": 0,
+   "du_mb": 1,
+   "prompts": {
+    "count": 0,
+    "max_len": 0,
+    "hashes": {}
+   },
+   "templates": {
+    "count": 0
+   },
+   "model_types": {},
+   "token_map_keys": {},
+   "dmg_count": 0,
+   "dmg_bytes": 0,
+   "dmg_max": 0
+  },
+  {
+   "family": "DeviceCheck",
+   "bundles": 2,
+   "du_mb": 1,
+   "prompts": {
+    "count": 0,
+    "max_len": 0,
+    "hashes": {}
+   },
+   "templates": {
+    "count": 0
+   },
+   "model_types": {},
+   "token_map_keys": {},
+   "dmg_count": 0,
+   "dmg_bytes": 0,
+   "dmg_max": 0
+  },
+  {
+   "family": "FM_CodeLM",
+   "bundles": 8,
+   "du_mb": 13867,
+   "prompts": {
+    "count": 2,
+    "max_len": 411,
+    "hashes": {
+     "99520e7a": 411,
+     "e8b49cbc": 9
+    }
+   },
+   "templates": {
+    "count": 0
+   },
+   "model_types": {
+    "gpu": 3,
+    "ane": 1
+   },
+   "token_map_keys": {
+    "stop_token": 1,
+    "chat.role.assistant": 1,
+    "chat.role.user": 1,
+    "chat.component.turnEnd": 1
+   },
+   "dmg_count": 8,
+   "dmg_bytes": 14814281728,
+   "dmg_max": 2485125120
+  },
+  {
+   "family": "FM_GenerativeModels",
+   "bundles": 163,
+   "du_mb": 25297,
+   "prompts": {
+    "count": 115,
+    "max_len": 204,
+    "hashes": {
+     "7066c427": 204,
+     "bd3fc8f4": 199,
+     "30113b98": 197,
+     "fd6c1f32": 195,
+     "e610e3af": 188,
+     "6f9d9694": 187,
+     "bd60c4ef": 183,
+     "8360739b": 183,
+     "ac474f9e": 107,
+     "61ce732f": 105,
+     "35083529": 105,
+     "c7d8a022": 105,
+     "6fcc4f1a": 105,
+     "77f33cb9": 105,
+     "09cd1663": 105,
+     "c0daf56f": 105,
+     "ff651899": 105,
+     "a3f9926b": 105,
+     "b3f95d00": 105,
+     "836f2c68": 105,
+     "f35f66e9": 105,
+     "9a78f6f5": 105,
+     "29ea0059": 105,
+     "6441df35": 105,
+     "652dcfe1": 105,
+     "436f98b6": 105,
+     "5cd445db": 105,
+     "4f0cdcff": 105,
+     "16d5548d": 105,
+     "81cead15": 105,
+     "a73a136b": 105,
+     "411ff97f": 105,
+     "5c2176f0": 105,
+     "0df69453": 105,
+     "5dc4c19e": 105,
+     "21fea8d0": 105,
+     "68aa7c65": 105,
+     "2b6dae9d": 105,
+     "95f7d76f": 105,
+     "d997c9d0": 105
+    }
+   },
+   "templates": {
+    "count": 4
+   },
+   "model_types": {
+    "ane": 20
+   },
+   "token_map_keys": {
+    "stop_token": 1,
+    "chat.role.assistant": 2,
+    "chat.role.user": 2,
+    "chat.component.turnEnd": 2,
+    "end_image_token_str": 2,
+    "start_image_token_str": 2,
+    "stop_token_strings[0]": 1,
+    "stop_token_strings[1]": 1,
+    "stop_token_strings[2]": 1,
+    "chat.component.turnStart": 1,
+    "chat.role.developer": 1
+   },
+   "dmg_count": 98,
+   "dmg_bytes": 23479713792,
+   "dmg_max": 6444548096
+  },
+  {
+   "family": "FM_Overrides",
+   "bundles": 135,
+   "du_mb": 8,
+   "prompts": {
+    "count": 0,
+    "max_len": 0,
+    "hashes": {}
+   },
+   "templates": {
+    "count": 0
+   },
+   "model_types": {},
+   "token_map_keys": {},
+   "dmg_count": 0,
+   "dmg_bytes": 0,
+   "dmg_max": 0
+  },
+  {
+   "family": "FM_Visual",
+   "bundles": 17,
+   "du_mb": 1794,
+   "prompts": {
+    "count": 0,
+    "max_len": 0,
+    "hashes": {}
+   },
+   "templates": {
+    "count": 0
+   },
+   "model_types": {},
+   "token_map_keys": {},
+   "dmg_count": 2,
+   "dmg_bytes": 2822766592,
+   "dmg_max": 1411383296
+  },
+  {
+   "family": "Handwriting_Synthesis",
+   "bundles": 1,
+   "du_mb": 1,
+   "prompts": {
+    "count": 0,
+    "max_len": 0,
+    "hashes": {}
+   },
+   "templates": {
+    "count": 0
+   },
+   "model_types": {},
+   "token_map_keys": {},
+   "dmg_count": 0,
+   "dmg_bytes": 0,
+   "dmg_max": 0
+  },
+  {
+   "family": "IF_Planner",
+   "bundles": 5,
+   "du_mb": 597,
+   "prompts": {
+    "count": 0,
+    "max_len": 0,
+    "hashes": {}
+   },
+   "templates": {
+    "count": 0
+   },
+   "model_types": {
+    "ane": 1
+   },
+   "token_map_keys": {
+    "stop_token": 1
+   },
+   "dmg_count": 4,
+   "dmg_bytes": 583008256,
+   "dmg_max": 226492416
+  },
+  {
+   "family": "IF_PlannerOverrides",
+   "bundles": 9,
+   "du_mb": 15,
+   "prompts": {
+    "count": 0,
+    "max_len": 0,
+    "hashes": {}
+   },
+   "templates": {
+    "count": 0
+   },
+   "model_types": {},
+   "token_map_keys": {},
+   "dmg_count": 0,
+   "dmg_bytes": 0,
+   "dmg_max": 0
+  },
+  {
+   "family": "LinguisticData",
+   "bundles": 21,
+   "du_mb": 1427,
+   "prompts": {
+    "count": 0,
+    "max_len": 0,
+    "hashes": {}
+   },
+   "templates": {
+    "count": 0
+   },
+   "model_types": {},
+   "token_map_keys": {},
+   "dmg_count": 0,
+   "dmg_bytes": 0,
+   "dmg_max": 0
+  },
+  {
+   "family": "Photos_MagicCleanup",
+   "bundles": 0,
+   "du_mb": 0,
+   "prompts": {
+    "count": 0,
+    "max_len": 0,
+    "hashes": {}
+   },
+   "templates": {
+    "count": 0
+   },
+   "model_types": {},
+   "token_map_keys": {},
+   "dmg_count": 0,
+   "dmg_bytes": 0,
+   "dmg_max": 0
+  },
+  {
+   "family": "Photos_SpatialPhotosRelive",
+   "bundles": 3,
+   "du_mb": 809,
+   "prompts": {
+    "count": 0,
+    "max_len": 0,
+    "hashes": {}
+   },
+   "templates": {
+    "count": 0
+   },
+   "model_types": {},
+   "token_map_keys": {},
+   "dmg_count": 4,
+   "dmg_bytes": 872415232,
+   "dmg_max": 406847488
+  },
+  {
+   "family": "SafariBrowsingAssistant",
+   "bundles": 1,
+   "du_mb": 22,
+   "prompts": {
+    "count": 0,
+    "max_len": 0,
+    "hashes": {}
+   },
+   "templates": {
+    "count": 0
+   },
+   "model_types": {},
+   "token_map_keys": {},
+   "dmg_count": 0,
+   "dmg_bytes": 0,
+   "dmg_max": 0
+  },
+  {
+   "family": "SearchQueryUnderstanding",
+   "bundles": 6,
+   "du_mb": 106,
+   "prompts": {
+    "count": 0,
+    "max_len": 0,
+    "hashes": {}
+   },
+   "templates": {
+    "count": 0
+   },
+   "model_types": {},
+   "token_map_keys": {},
+   "dmg_count": 0,
+   "dmg_bytes": 0,
+   "dmg_max": 0
+  },
+  {
+   "family": "SearchQueryUnderstandingOverrides",
+   "bundles": 2,
+   "du_mb": 2,
+   "prompts": {
+    "count": 0,
+    "max_len": 0,
+    "hashes": {}
+   },
+   "templates": {
+    "count": 0
+   },
+   "model_types": {},
+   "token_map_keys": {},
+   "dmg_count": 0,
+   "dmg_bytes": 0,
+   "dmg_max": 0
+  },
+  {
+   "family": "Shortcuts_Generator",
+   "bundles": 2,
+   "du_mb": 86,
+   "prompts": {
+    "count": 0,
+    "max_len": 0,
+    "hashes": {}
+   },
+   "templates": {
+    "count": 0
+   },
+   "model_types": {},
+   "token_map_keys": {},
+   "dmg_count": 0,
+   "dmg_bytes": 0,
+   "dmg_max": 0
+  },
+  {
+   "family": "Siri_AnswerSynthesis",
+   "bundles": 0,
+   "du_mb": 1,
+   "prompts": {
+    "count": 0,
+    "max_len": 0,
+    "hashes": {}
+   },
+   "templates": {
+    "count": 0
+   },
+   "model_types": {},
+   "token_map_keys": {},
+   "dmg_count": 0,
+   "dmg_bytes": 0,
+   "dmg_max": 0
+  },
+  {
+   "family": "Siri_DialogAssets",
+   "bundles": 53,
+   "du_mb": 2,
+   "prompts": {
+    "count": 0,
+    "max_len": 0,
+    "hashes": {}
+   },
+   "templates": {
+    "count": 0
+   },
+   "model_types": {},
+   "token_map_keys": {},
+   "dmg_count": 0,
+   "dmg_bytes": 0,
+   "dmg_max": 0
+  },
+  {
+   "family": "Siri_FindMyConfigurationFiles",
+   "bundles": 1,
+   "du_mb": 1,
+   "prompts": {
+    "count": 0,
+    "max_len": 0,
+    "hashes": {}
+   },
+   "templates": {
+    "count": 0
+   },
+   "model_types": {},
+   "token_map_keys": {},
+   "dmg_count": 0,
+   "dmg_bytes": 0,
+   "dmg_max": 0
+  },
+  {
+   "family": "Siri_PlatformAssets",
+   "bundles": 1,
+   "du_mb": 71,
+   "prompts": {
+    "count": 0,
+    "max_len": 0,
+    "hashes": {}
+   },
+   "templates": {
+    "count": 0
+   },
+   "model_types": {},
+   "token_map_keys": {},
+   "dmg_count": 0,
+   "dmg_bytes": 0,
+   "dmg_max": 0
+  },
+  {
+   "family": "Siri_TextToSpeech",
+   "bundles": 5,
+   "du_mb": 374,
+   "prompts": {
+    "count": 0,
+    "max_len": 0,
+    "hashes": {}
+   },
+   "templates": {
+    "count": 0
+   },
+   "model_types": {},
+   "token_map_keys": {},
+   "dmg_count": 0,
+   "dmg_bytes": 0,
+   "dmg_max": 0
+  },
+  {
+   "family": "Siri_Understanding",
+   "bundles": 21,
+   "du_mb": 2667,
+   "prompts": {
+    "count": 0,
+    "max_len": 0,
+    "hashes": {}
+   },
+   "templates": {
+    "count": 0
+   },
+   "model_types": {},
+   "token_map_keys": {},
+   "dmg_count": 4,
+   "dmg_bytes": 2743074816,
+   "dmg_max": 689963008
+  },
+  {
+   "family": "Siri_UnderstandingASRHammer",
+   "bundles": 2,
+   "du_mb": 81,
+   "prompts": {
+    "count": 0,
+    "max_len": 0,
+    "hashes": {}
+   },
+   "templates": {
+    "count": 0
+   },
+   "model_types": {},
+   "token_map_keys": {},
+   "dmg_count": 0,
+   "dmg_bytes": 0,
+   "dmg_max": 0
+  },
+  {
+   "family": "Siri_UnderstandingNLOverrides",
+   "bundles": 2,
+   "du_mb": 4,
+   "prompts": {
+    "count": 0,
+    "max_len": 0,
+    "hashes": {}
+   },
+   "templates": {
+    "count": 0
+   },
+   "model_types": {},
+   "token_map_keys": {},
+   "dmg_count": 0,
+   "dmg_bytes": 0,
+   "dmg_max": 0
+  },
+  {
+   "family": "Speech_AutomaticSpeechRecognition",
+   "bundles": 3,
+   "du_mb": 396,
+   "prompts": {
+    "count": 0,
+    "max_len": 0,
+    "hashes": {}
+   },
+   "templates": {
+    "count": 0
+   },
+   "model_types": {},
+   "token_map_keys": {},
+   "dmg_count": 2,
+   "dmg_bytes": 411041792,
+   "dmg_max": 205520896
+  },
+  {
+   "family": "SummarizationKitConfiguration",
+   "bundles": 2,
+   "du_mb": 1,
+   "prompts": {
+    "count": 0,
+    "max_len": 0,
+    "hashes": {}
+   },
+   "templates": {
+    "count": 0
+   },
+   "model_types": {},
+   "token_map_keys": {},
+   "dmg_count": 0,
+   "dmg_bytes": 0,
+   "dmg_max": 0
+  },
+  {
+   "family": "TKModelMessages",
+   "bundles": 3,
+   "du_mb": 1,
+   "prompts": {
+    "count": 0,
+    "max_len": 0,
+    "hashes": {}
+   },
+   "templates": {
+    "count": 0
+   },
+   "model_types": {},
+   "token_map_keys": {},
+   "dmg_count": 0,
+   "dmg_bytes": 0,
+   "dmg_max": 0
+  },
+  {
+   "family": "Translation_Assets",
+   "bundles": 3,
+   "du_mb": 34,
+   "prompts": {
+    "count": 0,
+    "max_len": 0,
+    "hashes": {}
+   },
+   "templates": {
+    "count": 0
+   },
+   "model_types": {},
+   "token_map_keys": {},
+   "dmg_count": 0,
+   "dmg_bytes": 0,
+   "dmg_max": 0
+  },
+  {
+   "family": "Translation_MMAssets",
+   "bundles": 1,
+   "du_mb": 1,
+   "prompts": {
+    "count": 0,
+    "max_len": 0,
+    "hashes": {}
+   },
+   "templates": {
+    "count": 0
+   },
+   "model_types": {},
+   "token_map_keys": {},
+   "dmg_count": 0,
+   "dmg_bytes": 0,
+   "dmg_max": 0
+  },
+  {
+   "family": "Unilog",
+   "bundles": 0,
+   "du_mb": 0,
+   "prompts": {
+    "count": 0,
+    "max_len": 0,
+    "hashes": {}
+   },
+   "templates": {
+    "count": 0
+   },
+   "model_types": {},
+   "token_map_keys": {},
+   "dmg_count": 0,
+   "dmg_bytes": 0,
+   "dmg_max": 0
+  },
+  {
+   "family": "Vision_ADT",
+   "bundles": 2,
+   "du_mb": 1,
+   "prompts": {
+    "count": 0,
+    "max_len": 0,
+    "hashes": {}
+   },
+   "templates": {
+    "count": 0
+   },
+   "model_types": {},
+   "token_map_keys": {},
+   "dmg_count": 0,
+   "dmg_bytes": 0,
+   "dmg_max": 0
+  }
+ ],
+ "totals": {
+  "families": 31,
+  "bundles": 474,
+  "du_mb": 47668,
+  "distinct_prompts": 117,
+  "dmgs": 122,
+  "dmg_bytes": 45726302208
+ }
+}

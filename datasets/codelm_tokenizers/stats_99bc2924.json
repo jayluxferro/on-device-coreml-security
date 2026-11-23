@@ -1,0 +1,962 @@
+{
+  "name": "generate_small_v2",
+  "vocab_size": 151648,
+  "max_id": 151647,
+  "type_counts": {
+    "USER_DEFINED": 1,
+    "UNUSED": 3,
+    "BYTE": 256
+  },
+  "normal_count": 151388,
+  "byte_token_count": 256,
+  "first_10": [
+    {
+      "id": 0,
+      "piece": "<pad>",
+      "type": "UNUSED"
+    },
+    {
+      "id": 1,
+      "piece": "</s>",
+      "type": "UNUSED"
+    },
+    {
+      "id": 2,
+      "piece": "<unk>",
+      "type": "USER_DEFINED"
+    },
+    {
+      "id": 3,
+      "piece": "<mask>",
+      "type": "UNUSED"
+    },
+    {
+      "id": 4,
+      "piece": "<n>",
+      "type": "NORMAL"
+    },
+    {
+      "id": 5,
+      "piece": "<0x00>",
+      "type": "BYTE"
+    },
+    {
+      "id": 6,
+      "piece": "<0x01>",
+      "type": "BYTE"
+    },
+    {
+      "id": 7,
+      "piece": "<0x02>",
+      "type": "BYTE"
+    },
+    {
+      "id": 8,
+      "piece": "<0x03>",
+      "type": "BYTE"
+    },
+    {
+      "id": 9,
+      "piece": "<0x04>",
+      "type": "BYTE"
+    }
+  ],
+  "last_10": [
+    {
+      "id": 151638,
+      "piece": "<extra_id_151542>",
+      "type": "NORMAL"
+    },
+    {
+      "id": 151639,
+      "piece": "<extra_id_151543>",
+      "type": "NORMAL"
+    },
+    {
+      "id": 151640,
+      "piece": "<extra_id_151544>",
+      "type": "NORMAL"
+    },
+    {
+      "id": 151641,
+      "piece": "<extra_id_151545>",
+      "type": "NORMAL"
+    },
+    {
+      "id": 151642,
+      "piece": "<extra_id_151546>",
+      "type": "NORMAL"
+    },
+    {
+      "id": 151643,
+      "piece": "<extra_id_151547>",
+      "type": "NORMAL"
+    },
+    {
+      "id": 151644,
+      "piece": "<extra_id_151548>",
+      "type": "NORMAL"
+    },
+    {
+      "id": 151645,
+      "piece": "<extra_id_151549>",
+      "type": "NORMAL"
+    },
+    {
+      "id": 151646,
+      "piece": "<extra_id_151550>",
+      "type": "NORMAL"
+    },
+    {
+      "id": 151647,
+      "piece": "<extra_id_151551>",
+      "type": "NORMAL"
+    }
+  ],
+  "angle_token_count": 1834,
+  "angle_tokens": [
+    {
+      "id": 0,
+      "piece": "<pad>",
+      "type": "UNUSED",
+      "score": 0.0
+    },
+    {
+      "id": 1,
+      "piece": "</s>",
+      "type": "UNUSED",
+      "score": 0.0
+    },
+    {
+      "id": 2,
+      "piece": "<unk>",
+      "type": "USER_DEFINED",
+      "score": 0.0
+    },
+    {
+      "id": 3,
+      "piece": "<mask>",
+      "type": "UNUSED",
+      "score": 0.0
+    },
+    {
+      "id": 4,
+      "piece": "<n>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 5,
+      "piece": "<0x00>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 6,
+      "piece": "<0x01>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 7,
+      "piece": "<0x02>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 8,
+      "piece": "<0x03>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 9,
+      "piece": "<0x04>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 10,
+      "piece": "<0x05>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 11,
+      "piece": "<0x06>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 12,
+      "piece": "<0x07>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 13,
+      "piece": "<0x08>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 14,
+      "piece": "<0x09>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 15,
+      "piece": "<0x0A>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 16,
+      "piece": "<0x0B>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 17,
+      "piece": "<0x0C>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 18,
+      "piece": "<0x0D>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 19,
+      "piece": "<0x0E>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 20,
+      "piece": "<0x0F>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 21,
+      "piece": "<0x10>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 22,
+      "piece": "<0x11>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 23,
+      "piece": "<0x12>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 24,
+      "piece": "<0x13>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 25,
+      "piece": "<0x14>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 26,
+      "piece": "<0x15>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 27,
+      "piece": "<0x16>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 28,
+      "piece": "<0x17>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 29,
+      "piece": "<0x18>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 30,
+      "piece": "<0x19>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 31,
+      "piece": "<0x1A>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 32,
+      "piece": "<0x1B>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 33,
+      "piece": "<0x1C>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 34,
+      "piece": "<0x1D>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 35,
+      "piece": "<0x1E>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 36,
+      "piece": "<0x1F>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 37,
+      "piece": "<0x20>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 38,
+      "piece": "<0x21>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 39,
+      "piece": "<0x22>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 40,
+      "piece": "<0x23>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 41,
+      "piece": "<0x24>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 42,
+      "piece": "<0x25>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 43,
+      "piece": "<0x26>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 44,
+      "piece": "<0x27>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 45,
+      "piece": "<0x28>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 46,
+      "piece": "<0x29>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 47,
+      "piece": "<0x2A>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 48,
+      "piece": "<0x2B>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 49,
+      "piece": "<0x2C>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 50,
+      "piece": "<0x2D>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 51,
+      "piece": "<0x2E>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 52,
+      "piece": "<0x2F>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 53,
+      "piece": "<0x30>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 54,
+      "piece": "<0x31>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 55,
+      "piece": "<0x32>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 56,
+      "piece": "<0x33>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 57,
+      "piece": "<0x34>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 58,
+      "piece": "<0x35>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 59,
+      "piece": "<0x36>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 60,
+      "piece": "<0x37>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 61,
+      "piece": "<0x38>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 62,
+      "piece": "<0x39>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 63,
+      "piece": "<0x3A>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 64,
+      "piece": "<0x3B>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 65,
+      "piece": "<0x3C>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 66,
+      "piece": "<0x3D>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 67,
+      "piece": "<0x3E>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 68,
+      "piece": "<0x3F>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 69,
+      "piece": "<0x40>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 70,
+      "piece": "<0x41>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 71,
+      "piece": "<0x42>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 72,
+      "piece": "<0x43>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 73,
+      "piece": "<0x44>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 74,
+      "piece": "<0x45>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 75,
+      "piece": "<0x46>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 76,
+      "piece": "<0x47>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 77,
+      "piece": "<0x48>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 78,
+      "piece": "<0x49>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 79,
+      "piece": "<0x4A>",
+      "type": "BYTE",
+      "score": 0.0
+    }
+  ],
+  "extra_id_tokens": [
+    {
+      "id": 150096,
+      "piece": "<extra_id_150000>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 150097,
+      "piece": "<extra_id_150001>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 150098,
+      "piece": "<extra_id_150002>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 150099,
+      "piece": "<extra_id_150003>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 150100,
+      "piece": "<extra_id_150004>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 150101,
+      "piece": "<extra_id_150005>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 150102,
+      "piece": "<extra_id_150006>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 150103,
+      "piece": "<extra_id_150007>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 150104,
+      "piece": "<extra_id_150008>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 150105,
+      "piece": "<extra_id_150009>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 150106,
+      "piece": "<extra_id_150010>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 150107,
+      "piece": "<extra_id_150011>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 150108,
+      "piece": "<extra_id_150012>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 150109,
+      "piece": "<extra_id_150013>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 150110,
+      "piece": "<extra_id_150014>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 150111,
+      "piece": "<extra_id_150015>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 150112,
+      "piece": "<extra_id_150016>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 150113,
+      "piece": "<extra_id_150017>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 150114,
+      "piece": "<extra_id_150018>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 150115,
+      "piece": "<extra_id_150019>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 150116,
+      "piece": "<extra_id_150020>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 150117,
+      "piece": "<extra_id_150021>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 150118,
+      "piece": "<extra_id_150022>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 150119,
+      "piece": "<extra_id_150023>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 150120,
+      "piece": "<extra_id_150024>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 150121,
+      "piece": "<extra_id_150025>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 150122,
+      "piece": "<extra_id_150026>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 150123,
+      "piece": "<extra_id_150027>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 150124,
+      "piece": "<extra_id_150028>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 150125,
+      "piece": "<extra_id_150029>",
+      "type": "NORMAL",
+      "score": 0.0
+    }
+  ],
+  "extra_id_count": 1552,
+  "byte_token_samples": [
+    {
+      "id": 5,
+      "piece": "<0x00>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 6,
+      "piece": "<0x01>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 7,
+      "piece": "<0x02>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 8,
+      "piece": "<0x03>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 9,
+      "piece": "<0x04>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 10,
+      "piece": "<0x05>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 11,
+      "piece": "<0x06>",
+      "type": "BYTE",
+      "score": 0.0
+    },
+    {
+      "id": 12,
+      "piece": "<0x07>",
+      "type": "BYTE",
+      "score": 0.0
+    }
+  ],
+  "turn_markers": [
+    {
+      "id": 150000,
+      "piece": "<turn_start>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 150001,
+      "piece": "<turn_end>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 150010,
+      "piece": "<executable_end>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 150012,
+      "piece": "<executable_results_end>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 150014,
+      "piece": "<image_end>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 150017,
+      "piece": "<audio_end>",
+      "type": "NORMAL",
+      "score": 0.0
+    },
+    {
+      "id": 150019,
+      "piece": "<video_end>",
+      "type": "NORMAL",
+      "score": 0.0
+    }
+  ],
+  "keyword_hits": {
+    "<pad>": true,
+    "</s>": true,
+    "<unk>": true,
+    "<mask>": true,
+    "<n>": true,
+    "<turn_end>": true,
+    "<turn_start>": true,
+    "Safe": true,
+    "Unsafe": false,
+    "CSEAI": false,
+    "Drugs": false,
+    "Gore": false,
+    "Harassment": false,
+    "Hate": false,
+    "Nudity": false,
+    "Self-harm": false,
+    "Terrorism": false,
+    "Toxic": false,
+    "Violence": false,
+    "Weapons": false,
+    "system": true,
+    "assistant": false,
+    "user": true,
+    "fim": false,
+    "FIM": false,
+    "<extra_id_0>": false,
+    "<extra_id_99>": false,
+    "<|endoftext|>": false,
+    "\u2581": true,
+    "\u0120": false,
+    "##": true,
+    "v_": false,
+    "q_": false,
+    "<fim_prefix>": false,
+    "<fill_me>": false
+  },
+  "scores": {
+    "min": -149738.0,
+    "max": 0.0,
+    "mean": -73926.522
+  },
+  "shortest_pieces": [
+    "\u2581",
+    "e",
+    "t",
+    "a",
+    "i",
+    "o",
+    "n",
+    "r",
+    "s",
+    "l",
+    "h",
+    "d",
+    "c",
+    "u",
+    "m",
+    "p",
+    "g",
+    "f",
+    "y",
+    "b"
+  ],
+  "longest_pieces": [
+    "requires_stored_property_inits",
+    "<executable_results_start>",
+    "<executable_results_end>",
+    "<||image_placeholder||>",
+    "<||video_placeholder||>",
+    "warn_unqualified_access",
+    "<spec_stream_pos_1>",
+    "<spec_stream_pos_2>",
+    "<spec_stream_pos_3>",
+    "<spec_stream_pos_4>",
+    "storageRestrictions",
+    "dynamicMemberLookup",
+    "<executable_start>",
+    "implementationOnly",
+    "discardableResult",
+    "UIApplicationMain",
+    "NSApplicationMain",
+    "<extra_id_150000>",
+    "<extra_id_150001>",
+    "<extra_id_150002>"
+  ]
+}

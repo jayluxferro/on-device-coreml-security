@@ -1,0 +1,214 @@
+{
+  "date": "2026-10-04 (this dump); raw walk 2026-08-01",
+  "host": "stock macOS 26.5, Apple Silicon M4 (H16C assets)",
+  "source": "find/du-style walk of /System/Library/AssetsV2/ on the harvest host (2026-08-01); raw scan .scratch/uaf_inventory.json (same walk). Table I of the paper is pinned to this dump.",
+  "conventions": {
+    "bundle": "one *.asset directory under <family>/purpose_auto/",
+    "catalog_files": "each purpose_auto/ directory also holds <family>.xml and <family>.xml.purged; earlier directory-listing censuses counted these as entries (+2 per family), verified on all 11 walked families (bundles_with_catalogs = asset_bundles + 2 for every one)",
+    "bytes": "sum of the per-file sizes the raw scan records for each bundle (its 'all_files' list): the bundle's regular files except *.plist/*.json/*.xml and files sitting directly inside SecureAssetData/. It includes the per-variant Restore cryptex DMGs under AssetData/Restore/ and the plaintext lora.part.bin adapters. The paper displays these byte counts in binary scale at one decimal, labelled 'GB' (e.g. FM_GenerativeModels 7.7 GB).",
+    "du_total": "the raw scan's own 'total_size' field: a du-style recursive directory total over <family>/purpose_auto/ with symlinks resolved (equivalent to du -skL), stored rounded to two decimals of GiB (e.g. '10.34G' = 10.34 GiB). It is larger than 'bytes' by the files the payload filter omits -- metadata (.plist/.json/.xml) plus the files directly inside SecureAssetData/ -- and, dominantly, because each per-variant Restore DMG is counted a second time: SecureAssetData/ holds a symlink SecureMobileAsset.dmg -> ../AssetData/Restore/<variant>_Cryptex.dmg and the walk resolves it to the target, adding the DMG's full size again. Verified live (macOS 27.0.1, 2026-10): du -sk vs du -skL differ by exactly the DMG size on two sample assets (GM task asset 28,956 vs 57,628 KiB, delta 29,360,128 B = its DMG; CodeLM guardrail 432,948 vs 656,180 KiB, delta 228,589,568 B = its DMG), and SecureAssetData/ itself is small -- plists, TSS tickets, integrity metadata, and that symlink only, du -sk 148 KiB (GM task) / 232 KiB (guardrail) -- not 'large per-device encrypted content'. Per family the du-vs-bytes delta equals the family's DMG mass plus a few MB of metadata: FM_GenerativeModels 10.34 GiB du vs 7.74 GiB payload (DMG mass 2,789,212,160 B over 27 DMGs), FM_CodeLM 13.57 vs 8.98 (4,922,015,744 B, 3 DMGs), FM_Visual 4.31 vs 2.99 (1,411,383,296 B, 1 DMG). Do not mix the two conventions."
+  },
+  "families": {
+    "FM_GenerativeModels": {
+      "asset_bundles": 97,
+      "bundles_with_catalogs": 99,
+      "bytes": 8307390164,
+      "gib": 7.737,
+      "du_total": "10.34G",
+      "walked": true,
+      "mlmodelc_dirs": 1,
+      "mlmodel_files": 0
+    },
+    "FM_CodeLM": {
+      "asset_bundles": 6,
+      "bundles_with_catalogs": 8,
+      "bytes": 9645985972,
+      "gib": 8.984,
+      "du_total": "13.57G",
+      "walked": true,
+      "mlmodelc_dirs": 0,
+      "mlmodel_files": 0
+    },
+    "FM_Visual": {
+      "asset_bundles": 16,
+      "bundles_with_catalogs": 18,
+      "bytes": 3212226576,
+      "gib": 2.992,
+      "du_total": "4.31G",
+      "walked": true,
+      "mlmodelc_dirs": 14,
+      "mlmodel_files": 0
+    },
+    "FM_Overrides": {
+      "asset_bundles": 91,
+      "bundles_with_catalogs": 93,
+      "bytes": null,
+      "gib": null,
+      "du_total": null,
+      "walked": false,
+      "mlmodelc_dirs": null,
+      "mlmodel_files": null,
+      "note": "not walked in the raw scan; 93 directory entries per the earlier census, minus the two catalog files by the same +2 convention -> 91 asset bundles. Display size 5.8 MB (unreverified)."
+    },
+    "Siri_TextToSpeech": {
+      "asset_bundles": 3,
+      "bundles_with_catalogs": 5,
+      "bytes": 429950570,
+      "gib": 0.4,
+      "du_total": "410.1M",
+      "walked": true,
+      "mlmodelc_dirs": 7,
+      "mlmodel_files": 0
+    },
+    "Siri_Understanding": {
+      "asset_bundles": 21,
+      "bundles_with_catalogs": 23,
+      "bytes": 2793699846,
+      "gib": 2.602,
+      "du_total": "3.89G",
+      "walked": true,
+      "mlmodelc_dirs": 40,
+      "mlmodel_files": 0
+    },
+    "Speech_AutomaticSpeechRecognition": {
+      "asset_bundles": 3,
+      "bundles_with_catalogs": 5,
+      "bytes": 414667996,
+      "gib": 0.386,
+      "du_total": "591.8M",
+      "walked": true,
+      "mlmodelc_dirs": 3,
+      "mlmodel_files": 0
+    },
+    "Translation_Assets": {
+      "asset_bundles": 3,
+      "bundles_with_catalogs": 5,
+      "bytes": 11001672,
+      "gib": 0.01,
+      "du_total": "32.5M",
+      "walked": true,
+      "mlmodelc_dirs": 2,
+      "mlmodel_files": 0
+    },
+    "IF_Planner": {
+      "asset_bundles": 3,
+      "bundles_with_catalogs": 5,
+      "bytes": 441296219,
+      "gib": 0.411,
+      "du_total": "637.2M",
+      "walked": true,
+      "mlmodelc_dirs": 0,
+      "mlmodel_files": 0
+    },
+    "IF_PlannerOverrides": {
+      "asset_bundles": 3,
+      "bundles_with_catalogs": 5,
+      "bytes": 506607,
+      "gib": 0.0,
+      "du_total": "516.1K",
+      "walked": true,
+      "mlmodelc_dirs": 0,
+      "mlmodel_files": 0
+    },
+    "SafariBrowsingAssistant": {
+      "asset_bundles": 1,
+      "bundles_with_catalogs": 3,
+      "bytes": 22989235,
+      "gib": 0.021,
+      "du_total": "21.9M",
+      "walked": true,
+      "mlmodelc_dirs": 0,
+      "mlmodel_files": 0
+    },
+    "Siri_DialogAssets": {
+      "asset_bundles": 51,
+      "bundles_with_catalogs": 53,
+      "bytes": 2301452,
+      "gib": 0.002,
+      "du_total": "2.5M",
+      "walked": true,
+      "mlmodelc_dirs": 0,
+      "mlmodel_files": 0
+    }
+  },
+  "totals": {
+    "four_fm_families": {
+      "asset_bundles": 210,
+      "bundles_with_catalogs": 218,
+      "bytes_walked_three_families": 21165602712,
+      "note": "19.7 GB in the paper = binary-scale (GiB) display of the three walked FM families' payload sum (19.712 GiB) plus the 5.8 MB FM_Overrides display size; 210 asset bundles; 218 was the catalog-inclusive directory count. du-style totals for the three walked families: 10.34 + 13.57 + 4.31 GiB."
+    },
+    "walked_11_families": {
+      "asset_bundles": 207,
+      "bytes": 25282016309,
+      "gib": 23.546,
+      "non_fm_eight": {
+        "families": [
+          "Siri_TextToSpeech",
+          "Siri_Understanding",
+          "Speech_AutomaticSpeechRecognition",
+          "Translation_Assets",
+          "IF_Planner",
+          "IF_PlannerOverrides",
+          "SafariBrowsingAssistant",
+          "Siri_DialogAssets"
+        ],
+        "asset_bundles": 88,
+        "bytes": 4116413597,
+        "gib": 3.834
+      },
+      "note": "the 11 families of the raw scan (2026-08-01). Table I's caption cites 207 bundles / 23.5 GB (payload convention) for these."
+    },
+    "five_wider_testable_families": {
+      "families": [
+        "FM_Visual",
+        "Siri_Understanding",
+        "Siri_TextToSpeech",
+        "Speech_AutomaticSpeechRecognition",
+        "Translation_Assets"
+      ],
+      "mlmodelc_per_family": {
+        "FM_Visual": 14,
+        "Siri_Understanding": 40,
+        "Siri_TextToSpeech": 7,
+        "Speech_AutomaticSpeechRecognition": 3,
+        "Translation_Assets": 2
+      },
+      "testable_model_files": 66,
+      "note": "adds 66 files to the companion paper's CoreML catalog (61 -> 127 total)"
+    },
+    "listed_uaf_families": {
+      "count": 27,
+      "names": [
+        "FM_CodeLM",
+        "FM_GenerativeModels",
+        "FM_Visual",
+        "Siri_Understanding",
+        "IF_Planner",
+        "Speech_AutomaticSpeechRecognition",
+        "Siri_TextToSpeech",
+        "Siri_PlatformAssets",
+        "Siri_UnderstandingASRHammer",
+        "Translation_Assets",
+        "SafariBrowsingAssistant",
+        "Siri_DialogAssets",
+        "IF_PlannerOverrides",
+        "FM_Overrides",
+        "Siri_UnderstandingNLOverrides",
+        "TKModelMessages",
+        "SummarizationKitConfiguration",
+        "Siri_FindMyConfigurationFiles",
+        "Handwriting_Synthesis",
+        "Vision_ADT",
+        "CoreMotion_IMUFoundationModel",
+        "Photos_SpatialPhotosRelive",
+        "LinguisticData",
+        "Photos_MagicCleanup",
+        "Shortcuts_Generator",
+        "Siri_AnswerSynthesis",
+        "Translation_MMAssets"
+      ],
+      "provenance": "harvest-host family listing recorded in docs/FOUNDATION_MODEL_ARCHITECTURE.md (header '27 UAF families'; its per-family table sums to 351 catalog-inclusive entries / ~23.7 GB, so the header's own '348 bundles / 24.1 GB' does not reproduce from its table and is not used by the paper). Not re-walkable: the harvest host is gone; the 2026-08-01 walk covered 11 of these. Cross-check (2026-10-04): all 27 names confirmed present as UAF family directories on a macOS 27 host, which lists 31 in total."
+    }
+  }
+}

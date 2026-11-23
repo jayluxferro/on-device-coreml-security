@@ -1,0 +1,173 @@
+[
+  {
+    "sha8": "77f1bc35",
+    "assets": 33,
+    "first_asset": "cc513215db40",
+    "tamm_id": "afm+v7-150b-instruct-astc-6x6-20250207",
+    "len": 20,
+    "file": "prompt_77f1bc35.txt",
+    "head": "<turn_start> system / "
+  },
+  {
+    "sha8": "05092fd6",
+    "assets": 2,
+    "first_asset": "069e38c58518",
+    "tamm_id": "afm+v8-150b-instruct-astc-6x6-20250523",
+    "len": 49,
+    "file": "prompt_05092fd6.txt",
+    "head": "<turn_start> system / Make this text more friendly."
+  },
+  {
+    "sha8": "caac71dd",
+    "assets": 1,
+    "first_asset": "5274a3344683",
+    "tamm_id": null,
+    "len": 355,
+    "file": "prompt_caac71dd.txt",
+    "head": "<turn_start> system<n>You specialize in producing tags in th"
+  },
+  {
+    "sha8": "1a4e7e84",
+    "assets": 1,
+    "first_asset": "c7fe340e42ad",
+    "tamm_id": "afm+v8-150b-instruct-astc-6x6-20250523",
+    "len": 293,
+    "file": "prompt_1a4e7e84.txt",
+    "head": "<turn_start> system<n> You are an assistant which helps the "
+  },
+  {
+    "sha8": "c2650dd3",
+    "assets": 1,
+    "first_asset": "825b81ef9e0b",
+    "tamm_id": "afm+v8-150b-instruct-astc-6x6-20250523",
+    "len": 58,
+    "file": "prompt_c2650dd3.txt",
+    "head": "<turn_start> system<n> Make the given text into keypoints."
+  },
+  {
+    "sha8": "15ba51cb",
+    "assets": 1,
+    "first_asset": "a8c446dc4d73",
+    "tamm_id": "afm+v8-150b-instruct-astc-6x6-20250523",
+    "len": 62,
+    "file": "prompt_15ba51cb.txt",
+    "head": "<turn_start> system<n> Make the given text into bullet point"
+  },
+  {
+    "sha8": "bd1d80c6",
+    "assets": 1,
+    "first_asset": "17389448572f",
+    "tamm_id": "afm+v8-150b-instruct-astc-6x6-20250523",
+    "len": 3556,
+    "file": "prompt_bd1d80c6.txt",
+    "head": "<turn_start> system / You are a friendly, encouraging companio"
+  },
+  {
+    "sha8": "4ac4876a",
+    "assets": 1,
+    "first_asset": "9eeb93fb4225",
+    "tamm_id": "afm+v8-150b-instruct-astc-6x6-20250523",
+    "len": 496,
+    "file": "prompt_4ac4876a.txt",
+    "head": "<turn_start> system<n> You are an assistant which helps the "
+  },
+  {
+    "sha8": "9eec2888",
+    "assets": 1,
+    "first_asset": "f805e2f1ec46",
+    "tamm_id": "vre-3b-20240723",
+    "len": 7,
+    "file": "prompt_9eec2888.txt",
+    "head": "system / "
+  },
+  {
+    "sha8": "01780bb5",
+    "assets": 1,
+    "first_asset": "36dbcd960a02",
+    "tamm_id": null,
+    "len": 22,
+    "file": "prompt_01780bb5.txt",
+    "head": "<turn_start> system<n>"
+  },
+  {
+    "sha8": "d35d8c14",
+    "assets": 1,
+    "first_asset": "3affebb7d821",
+    "tamm_id": null,
+    "len": 160,
+    "file": "prompt_d35d8c14.txt",
+    "head": "<turn_start> system / You are an expert at summarization. Do n"
+  },
+  {
+    "sha8": "836729a1",
+    "assets": 1,
+    "first_asset": "a7f43daf3dc2",
+    "tamm_id": null,
+    "len": 477,
+    "file": "prompt_836729a1.txt",
+    "head": "<turn_start> system<n> You are an assistant which helps the "
+  },
+  {
+    "sha8": "11930059",
+    "assets": 1,
+    "first_asset": "a186fec02a0a",
+    "tamm_id": null,
+    "len": 40,
+    "file": "prompt_11930059.txt",
+    "head": "<turn_start> system / Proofread this text:"
+  },
+  {
+    "sha8": "998c838e",
+    "assets": 1,
+    "first_asset": "598392d24c60",
+    "tamm_id": null,
+    "len": 39,
+    "file": "prompt_998c838e.txt",
+    "head": "<turn_start> system /  Predict next turn:"
+  },
+  {
+    "sha8": "8b2871b7",
+    "assets": 1,
+    "first_asset": "fe204c2f8e9d",
+    "tamm_id": "afm+v8-150b-instruct-astc-6x6-20250523",
+    "len": 852,
+    "file": "prompt_8b2871b7.txt",
+    "head": "<turn_start> system / You are a helpful mail assistant which c"
+  },
+  {
+    "sha8": "baed5653",
+    "assets": 1,
+    "first_asset": "d4c2f7bc6e12",
+    "tamm_id": "afm+v8-150b-instruct-astc-6x6-20250523",
+    "len": 79,
+    "file": "prompt_baed5653.txt",
+    "head": "<turn_start> system<n> Transform the given text into a table"
+  },
+  {
+    "sha8": "d5c4acb9",
+    "assets": 1,
+    "first_asset": "ea427956a4e4",
+    "tamm_id": null,
+    "len": 130,
+    "file": "prompt_d5c4acb9.txt",
+    "head": "<turn_start> system / You are an intelligent assistant that re"
+  },
+  {
+    "sha8": "9fd2a156",
+    "assets": 1,
+    "first_asset": "633a5c889f91",
+    "tamm_id": "afm+v8-150b-instruct-astc-6x6-20250523",
+    "len": 3476,
+    "file": "prompt_9fd2a156.txt",
+    "head": "<turn_start> system / You are an expert AI specializing in tas"
+  },
+  {
+    "sha8": "0d9ad5b1",
+    "assets": 1,
+    "first_asset": "3c14d1fd0efc",
+    "tamm_id": null,
+    "len": 274,
+    "file": "prompt_0d9ad5b1.txt",
+    "head": "<turn_start> system<n> You are a helpful assistant. Please i"
+  }
+]

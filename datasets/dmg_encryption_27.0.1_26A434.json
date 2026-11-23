@@ -1,0 +1,1402 @@
+{
+ "os_version": "27.0.1",
+ "os_build": "26A434",
+ "host": "arm64",
+ "pattern": "com_apple_MobileAsset_UAF_*",
+ "images": 122,
+ "encrypted_yes": 0,
+ "encrypted_no": 122,
+ "unknown": 0,
+ "total_bytes": 45726302208,
+ "mount_probes": [
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_CodeLM/purpose_auto/68ea89d90860c3a8b43c0486195b3e62f615fbdb.asset/AssetData/Restore/UC_FM_CODE_GENERATE_SAFETY_GUARDRAIL_BASE_GENERIC_H16C_Cryptex.dmg",
+   "mounted": true,
+   "files": 12,
+   "sample": [
+    "metadata.json",
+    "System/Library/CoreServices/RestoreVersion.plist",
+    "System/Library/CoreServices/SystemVersion.plist",
+    "model.bundle/H16C.bundle/H16C.e5",
+    "model.bundle/H16C.bundle/extend_512_64/extend_512_64_e5_minimal_cpu/fragment.mil",
+    "model.bundle/H16C.bundle/extend_2048_64/extend_2048_64_e5_minimal_cpu/fragment.mil"
+   ],
+   "has_mil": true,
+   "has_weights": true
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_CodeLM/purpose_auto/68ea89d90860c3a8b43c0486195b3e62f615fbdb.asset/SecureAssetData/SecureMobileAsset.dmg",
+   "mounted": true,
+   "files": 12,
+   "sample": [
+    "metadata.json",
+    "System/Library/CoreServices/RestoreVersion.plist",
+    "System/Library/CoreServices/SystemVersion.plist",
+    "model.bundle/H16C.bundle/H16C.e5",
+    "model.bundle/H16C.bundle/extend_512_64/extend_512_64_e5_minimal_cpu/fragment.mil",
+    "model.bundle/H16C.bundle/extend_2048_64/extend_2048_64_e5_minimal_cpu/fragment.mil"
+   ],
+   "has_mil": true,
+   "has_weights": true
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_CodeLM/purpose_auto/957958e2c1764bbcfa466dab7a8ccd8ddd8032c7.asset/AssetData/Restore/UC_FM_CODE_GENERATE_SMALL_V2_BASE_GENERIC_H16_Cryptex.dmg",
+   "mounted": true,
+   "files": 8,
+   "sample": [
+    "metadata.json",
+    "System/Library/CoreServices/RestoreVersion.plist",
+    "System/Library/CoreServices/SystemVersion.plist",
+    "model.bundle/H16.bundle/H16.e5",
+    "model.bundle/H16.bundle/main/main_mps_graph/main_mps_graph.mpsgraphpackage/model_0.mpsgraph",
+    "model.bundle/H16.bundle/main/main_mps_graph/main_mps_graph.mpsgraphpackage/reflection.fb"
+   ],
+   "has_mil": false,
+   "has_weights": false
+  }
+ ],
+ "detail": [
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_CodeLM/purpose_auto/68ea89d90860c3a8b43c0486195b3e62f615fbdb.asset/AssetData/Restore/UC_FM_CODE_GENERATE_SAFETY_GUARDRAIL_BASE_GENERIC_H16C_Cryptex.dmg",
+   "family": "FM_CodeLM",
+   "bytes": 228589568,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_CodeLM/purpose_auto/68ea89d90860c3a8b43c0486195b3e62f615fbdb.asset/SecureAssetData/SecureMobileAsset.dmg",
+   "family": "FM_CodeLM",
+   "bytes": 228589568,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_CodeLM/purpose_auto/957958e2c1764bbcfa466dab7a8ccd8ddd8032c7.asset/AssetData/Restore/UC_FM_CODE_GENERATE_SMALL_V2_BASE_GENERIC_H16_Cryptex.dmg",
+   "family": "FM_CodeLM",
+   "bytes": 2478833664,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_CodeLM/purpose_auto/957958e2c1764bbcfa466dab7a8ccd8ddd8032c7.asset/SecureAssetData/SecureMobileAsset.dmg",
+   "family": "FM_CodeLM",
+   "bytes": 2478833664,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_CodeLM/purpose_auto/f41ae70eb402f2784e6116694990ef5354fe8217.asset/AssetData/Restore/UC_FM_CODE_GENERATE_SMALL_V1_BASE_GENERIC_H16_Cryptex.dmg",
+   "family": "FM_CodeLM",
+   "bytes": 2214592512,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_CodeLM/purpose_auto/f41ae70eb402f2784e6116694990ef5354fe8217.asset/SecureAssetData/SecureMobileAsset.dmg",
+   "family": "FM_CodeLM",
+   "bytes": 2214592512,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_CodeLM/purpose_auto/f5793f726ccfe3f3afb7ab3202729bc99c1dca7a.asset/AssetData/Restore/UC_FM_CODE_GENERATE_SMALL_V3_BASE_GENERIC_H16C_Cryptex.dmg",
+   "family": "FM_CodeLM",
+   "bytes": 2485125120,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_CodeLM/purpose_auto/f5793f726ccfe3f3afb7ab3202729bc99c1dca7a.asset/SecureAssetData/SecureMobileAsset.dmg",
+   "family": "FM_CodeLM",
+   "bytes": 2485125120,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/02bbd64a50ebb785335e116f5c7588a14cf30200.asset/AssetData/Restore/UC_FM_LANGUAGE_INSTRUCT_3B_SHORTCUTS_ASK_AFM_ACTION_3B_DRAFT_GENERIC_GENERIC_H16C_Cryptex.dmg",
+   "family": "FM_GenerativeModels",
+   "bytes": 44040192,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/02bbd64a50ebb785335e116f5c7588a14cf30200.asset/SecureAssetData/SecureMobileAsset.dmg",
+   "family": "FM_GenerativeModels",
+   "bytes": 44040192,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/05b11471bbb3f2ff06e7067d50e33273ad387955.asset/AssetData/Restore/UC_FM_LANGUAGE_INSTRUCT_3B_FM_API_GENERIC_DRAFT_GENERIC_GENERIC_H16C_Cryptex.dmg",
+   "family": "FM_GenerativeModels",
+   "bytes": 44040192,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/05b11471bbb3f2ff06e7067d50e33273ad387955.asset/SecureAssetData/SecureMobileAsset.dmg",
+   "family": "FM_GenerativeModels",
+   "bytes": 44040192,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/0e3a2351895d8127b4b7784a2648dc5460787352.asset/AssetData/Restore/UC_FM_LANGUAGE_INSTRUCT_3B_SUGGEST_RECIPE_ITEMS_DRAFT_GENERIC_SPARSE_GENERIC_H16C_IFP_Cryptex.dmg",
+   "family": "FM_GenerativeModels",
+   "bytes": 54525952,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/0e3a2351895d8127b4b7784a2648dc5460787352.asset/SecureAssetData/SecureMobileAsset.dmg",
+   "family": "FM_GenerativeModels",
+   "bytes": 54525952,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/10f72b61ab8a3e7ef30bef5eb81461d462b8b29e.asset/AssetData/Restore/UC_FM_LANGUAGE_INSTRUCT_3B_PROFESSIONAL_TONE_DRAFT_GENERIC_GENERIC_H16C_Cryptex.dmg",
+   "family": "FM_GenerativeModels",
+   "bytes": 44040192,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/10f72b61ab8a3e7ef30bef5eb81461d462b8b29e.asset/SecureAssetData/SecureMobileAsset.dmg",
+   "family": "FM_GenerativeModels",
+   "bytes": 44040192,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/18104dcf83e32f5988f8f33fef5140c9a5d960da.asset/AssetData/Restore/UC_FM_LANGUAGE_INSTRUCT_3B_FM_API_GENERIC_DRAFT_GENERIC_SPARSE_GENERIC_H16C_IFP_Cryptex.dmg",
+   "family": "FM_GenerativeModels",
+   "bytes": 54525952,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/18104dcf83e32f5988f8f33fef5140c9a5d960da.asset/SecureAssetData/SecureMobileAsset.dmg",
+   "family": "FM_GenerativeModels",
+   "bytes": 54525952,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/20f0528ac62d416970ed27c57b7ab289cfd21cb6.asset/AssetData/Restore/UC_FM_LANGUAGE_INSTRUCT_3B_PHOTOS_MEMORIES_TITLE_DRAFT_GENERIC_GENERIC_H16C_Cryptex.dmg",
+   "family": "FM_GenerativeModels",
+   "bytes": 44040192,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/20f0528ac62d416970ed27c57b7ab289cfd21cb6.asset/SecureAssetData/SecureMobileAsset.dmg",
+   "family": "FM_GenerativeModels",
+   "bytes": 44040192,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/274ab87c28dabb70f08e1c3a17cb76c212656add.asset/AssetData/Restore/UC_FM_LANGUAGE_INSTRUCT_3B_OPEN_ENDED_EXTRACT_DRAFT_GENERIC_GENERIC_H16C_Cryptex.dmg",
+   "family": "FM_GenerativeModels",
+   "bytes": 46137344,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/274ab87c28dabb70f08e1c3a17cb76c212656add.asset/SecureAssetData/SecureMobileAsset.dmg",
+   "family": "FM_GenerativeModels",
+   "bytes": 46137344,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/30a6e46a79e33e33e725fbd73e7749e71674c1a3.asset/AssetData/Restore/UC_FM_LANGUAGE_INSTRUCT_3B_MAIL_REPLY_DRAFT_GENERIC_SPARSE_GENERIC_H16C_IFP_Cryptex.dmg",
+   "family": "FM_GenerativeModels",
+   "bytes": 54525952,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/30a6e46a79e33e33e725fbd73e7749e71674c1a3.asset/SecureAssetData/SecureMobileAsset.dmg",
+   "family": "FM_GenerativeModels",
+   "bytes": 54525952,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/339f48449010df8da61481aabc114c24fb6f72a2.asset/AssetData/Restore/UC_FM_LANGUAGE_INSTRUCT_3B_BASE_GENERIC_SPARSE_GENERIC_H16C_IFP_Cryptex.dmg",
+   "family": "FM_GenerativeModels",
+   "bytes": 6444548096,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/339f48449010df8da61481aabc114c24fb6f72a2.asset/SecureAssetData/SecureMobileAsset.dmg",
+   "family": "FM_GenerativeModels",
+   "bytes": 6444548096,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/3404d985c1f32963d17c8cb50afe57abcdc93bc0.asset/AssetData/Restore/UC_FM_LANGUAGE_INSTRUCT_3B_PHOTOS_MEMORIES_ASSET_CURATION_OUTLIER_DRAFT_GENERIC_SPARSE_GENERIC_H16C_IFP_Cryptex.dmg",
+   "family": "FM_GenerativeModels",
+   "bytes": 54525952,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/3404d985c1f32963d17c8cb50afe57abcdc93bc0.asset/SecureAssetData/SecureMobileAsset.dmg",
+   "family": "FM_GenerativeModels",
+   "bytes": 54525952,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/35290cbb4a8b668afce2bef51a23036bcd0aea85.asset/AssetData/Restore/UC_FM_LANGUAGE_INSTRUCT_3B_REMINDERS_SUGGEST_ACTION_ITEMS_DRAFT_GENERIC_SPARSE_GENERIC_H16C_IFP_Cryptex.dmg",
+   "family": "FM_GenerativeModels",
+   "bytes": 54525952,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/35290cbb4a8b668afce2bef51a23036bcd0aea85.asset/SecureAssetData/SecureMobileAsset.dmg",
+   "family": "FM_GenerativeModels",
+   "bytes": 54525952,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/475b2db587bcfef5c841b5a408089cd8187f97e0.asset/AssetData/Restore/UC_FM_LANGUAGE_INSTRUCT_3B_SUMMARIZATION_DRAFT_GENERIC_GENERIC_H16C_Cryptex.dmg",
+   "family": "FM_GenerativeModels",
+   "bytes": 29360128,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/475b2db587bcfef5c841b5a408089cd8187f97e0.asset/SecureAssetData/SecureMobileAsset.dmg",
+   "family": "FM_GenerativeModels",
+   "bytes": 29360128,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/4a2d8d6c4ea918d3c6093cf975c8883903f68431.asset/AssetData/Restore/UC_FM_LANGUAGE_INSTRUCT_3B_LW_PLANNER_V1_DRAFT_GENERIC_SPARSE_GENERIC_H16C_IFP_Cryptex.dmg",
+   "family": "FM_GenerativeModels",
+   "bytes": 54525952,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/4a2d8d6c4ea918d3c6093cf975c8883903f68431.asset/SecureAssetData/SecureMobileAsset.dmg",
+   "family": "FM_GenerativeModels",
+   "bytes": 54525952,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/4b70705da07954e8998d7ae444ddf38b9c70b2cc.asset/AssetData/Restore/UC_FM_LANGUAGE_INSTRUCT_300M_BASE_GENERIC_GENERIC_H16C_IFP_Cryptex.dmg",
+   "family": "FM_GenerativeModels",
+   "bytes": 450887680,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/4b70705da07954e8998d7ae444ddf38b9c70b2cc.asset/SecureAssetData/SecureMobileAsset.dmg",
+   "family": "FM_GenerativeModels",
+   "bytes": 450887680,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/5284fe08a840e6928bf74c83c441f6d5614590aa.asset/AssetData/Restore/UC_FM_LANGUAGE_INSTRUCT_3B_REMINDERS_SUGGEST_ACTION_ITEMS_DRAFT_GENERIC_GENERIC_H16C_Cryptex.dmg",
+   "family": "FM_GenerativeModels",
+   "bytes": 44040192,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/5284fe08a840e6928bf74c83c441f6d5614590aa.asset/SecureAssetData/SecureMobileAsset.dmg",
+   "family": "FM_GenerativeModels",
+   "bytes": 44040192,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/532fc7f1b330500559eec5ee534c578e863ef0eb.asset/AssetData/Restore/UC_FM_LANGUAGE_INSTRUCT_3B_MESSAGES_ACTION_DRAFT_GENERIC_GENERIC_H16C_Cryptex.dmg",
+   "family": "FM_GenerativeModels",
+   "bytes": 44040192,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/532fc7f1b330500559eec5ee534c578e863ef0eb.asset/SecureAssetData/SecureMobileAsset.dmg",
+   "family": "FM_GenerativeModels",
+   "bytes": 44040192,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/5354665e5c46d395c05694f54b2aa7f95692c369.asset/AssetData/Restore/UC_FM_LANGUAGE_INSTRUCT_3B_BASE_GENERIC_GENERIC_H16C_Cryptex.dmg",
+   "family": "FM_GenerativeModels",
+   "bytes": 1042284544,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/5354665e5c46d395c05694f54b2aa7f95692c369.asset/SecureAssetData/SecureMobileAsset.dmg",
+   "family": "FM_GenerativeModels",
+   "bytes": 1042284544,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/5a0aaed43e5138ad58c7dcf8815eb5545eda88b3.asset/AssetData/Restore/UC_FM_LANGUAGE_INSTRUCT_3B_MESSAGES_ACTION_DRAFT_GENERIC_SPARSE_GENERIC_H16C_IFP_Cryptex.dmg",
+   "family": "FM_GenerativeModels",
+   "bytes": 54525952,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/5a0aaed43e5138ad58c7dcf8815eb5545eda88b3.asset/SecureAssetData/SecureMobileAsset.dmg",
+   "family": "FM_GenerativeModels",
+   "bytes": 54525952,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/5a45462d4ad400951a69d753388c084082d36a88.asset/AssetData/Restore/UC_FM_LANGUAGE_INSTRUCT_3B_AUTONAMING_MESSAGES_DRAFT_GENERIC_GENERIC_H16C_Cryptex.dmg",
+   "family": "FM_GenerativeModels",
+   "bytes": 44040192,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/5a45462d4ad400951a69d753388c084082d36a88.asset/SecureAssetData/SecureMobileAsset.dmg",
+   "family": "FM_GenerativeModels",
+   "bytes": 44040192,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/5aeb13c5a65351023c3eac3bbb7ca0d63e0e1153.asset/AssetData/Restore/UC_FM_LANGUAGE_INSTRUCT_3B_PROOFREADING_REVIEW_DRAFT_GENERIC_SPARSE_GENERIC_H16C_IFP_Cryptex.dmg",
+   "family": "FM_GenerativeModels",
+   "bytes": 54525952,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/5aeb13c5a65351023c3eac3bbb7ca0d63e0e1153.asset/SecureAssetData/SecureMobileAsset.dmg",
+   "family": "FM_GenerativeModels",
+   "bytes": 54525952,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/5ecb6982765ef21c7382dd440a6655c4873f56d8.asset/AssetData/Restore/UC_FM_LANGUAGE_INSTRUCT_3B_IMAGE_PLAYGROUND_EDIT_SUGGESTIONS_DRAFT_GENERIC_SPARSE_GENERIC_H16C_IFP_Cryptex.dmg",
+   "family": "FM_GenerativeModels",
+   "bytes": 54525952,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/5ecb6982765ef21c7382dd440a6655c4873f56d8.asset/SecureAssetData/SecureMobileAsset.dmg",
+   "family": "FM_GenerativeModels",
+   "bytes": 54525952,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/6385a1d25af14fa6bc380a71ef9004d02d337b48.asset/AssetData/Restore/UC_FM_LANGUAGE_INSTRUCT_3B_MAGIC_REWRITE_DRAFT_GENERIC_GENERIC_H16C_Cryptex.dmg",
+   "family": "FM_GenerativeModels",
+   "bytes": 44040192,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/6385a1d25af14fa6bc380a71ef9004d02d337b48.asset/SecureAssetData/SecureMobileAsset.dmg",
+   "family": "FM_GenerativeModels",
+   "bytes": 44040192,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/63aa87292f700a207dc11f5bac13903be066c9f2.asset/AssetData/Restore/UC_FM_LANGUAGE_INSTRUCT_3B_SHORTCUTS_ASK_AFM_ACTION_3B_V2_DRAFT_GENERIC_GENERIC_H16C_Cryptex.dmg",
+   "family": "FM_GenerativeModels",
+   "bytes": 54525952,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/63aa87292f700a207dc11f5bac13903be066c9f2.asset/SecureAssetData/SecureMobileAsset.dmg",
+   "family": "FM_GenerativeModels",
+   "bytes": 54525952,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/693e96f6d2ae01e99879a480a8f8672bc11a4f06.asset/AssetData/Restore/UC_FM_LANGUAGE_INSTRUCT_3B_FRIENDLY_TONE_DRAFT_GENERIC_GENERIC_H16C_Cryptex.dmg",
+   "family": "FM_GenerativeModels",
+   "bytes": 44040192,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/693e96f6d2ae01e99879a480a8f8672bc11a4f06.asset/SecureAssetData/SecureMobileAsset.dmg",
+   "family": "FM_GenerativeModels",
+   "bytes": 44040192,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/69a9968246bf62c0cda8142cfb7d0a1560dd4b0f.asset/AssetData/Restore/UC_FM_LANGUAGE_INSTRUCT_300M_ADM_PROMPT_REWRITING_DRAFT_GENERIC_GENERIC_H16C_Cryptex.dmg",
+   "family": "FM_GenerativeModels",
+   "bytes": 44040192,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/69a9968246bf62c0cda8142cfb7d0a1560dd4b0f.asset/SecureAssetData/SecureMobileAsset.dmg",
+   "family": "FM_GenerativeModels",
+   "bytes": 44040192,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/6f39cef4dd772d2a49c5d053ff6ade941b50d170.asset/AssetData/Restore/UC_FM_LANGUAGE_INSTRUCT_3B_MAIL_REPLY_DRAFT_GENERIC_GENERIC_H16C_Cryptex.dmg",
+   "family": "FM_GenerativeModels",
+   "bytes": 29360128,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/6f39cef4dd772d2a49c5d053ff6ade941b50d170.asset/SecureAssetData/SecureMobileAsset.dmg",
+   "family": "FM_GenerativeModels",
+   "bytes": 29360128,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/7aa7f2d2d4b98dc0d3504eed0c4de09f2fa83665.asset/AssetData/Restore/UC_FM_LANGUAGE_INSTRUCT_3B_PHOTOS_MEMORIES_ASSET_CURATION_OUTLIER_DRAFT_GENERIC_GENERIC_H16C_Cryptex.dmg",
+   "family": "FM_GenerativeModels",
+   "bytes": 44040192,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/7aa7f2d2d4b98dc0d3504eed0c4de09f2fa83665.asset/SecureAssetData/SecureMobileAsset.dmg",
+   "family": "FM_GenerativeModels",
+   "bytes": 44040192,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/7b9806c037fa90306d7cfce3b39db5104d66ff60.asset/AssetData/Restore/UC_FM_LANGUAGE_INSTRUCT_3B_IMAGE_ENCODER_GENERIC_SPARSE_GENERIC_H16C_IFP_Cryptex.dmg",
+   "family": "FM_GenerativeModels",
+   "bytes": 253755392,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/7b9806c037fa90306d7cfce3b39db5104d66ff60.asset/SecureAssetData/SecureMobileAsset.dmg",
+   "family": "FM_GenerativeModels",
+   "bytes": 253755392,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/851e0132c2309a2ec0714b32a2fe15399ee3186a.asset/AssetData/Restore/UC_FM_LANGUAGE_INSTRUCT_3B_OPEN_ENDED_EXTRACT_DRAFT_GENERIC_SPARSE_GENERIC_H16C_IFP_Cryptex.dmg",
+   "family": "FM_GenerativeModels",
+   "bytes": 54525952,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/851e0132c2309a2ec0714b32a2fe15399ee3186a.asset/SecureAssetData/SecureMobileAsset.dmg",
+   "family": "FM_GenerativeModels",
+   "bytes": 54525952,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/8a358633925b4a89d4217c193660a3ed9899369d.asset/AssetData/Restore/UC_FM_LANGUAGE_INSTRUCT_3B_SUGGEST_RECIPE_ITEMS_DRAFT_GENERIC_GENERIC_H16C_Cryptex.dmg",
+   "family": "FM_GenerativeModels",
+   "bytes": 44040192,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/8a358633925b4a89d4217c193660a3ed9899369d.asset/SecureAssetData/SecureMobileAsset.dmg",
+   "family": "FM_GenerativeModels",
+   "bytes": 44040192,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/910d90bc6f66498798034d81666eb49f11f66e48.asset/AssetData/Restore/UC_FM_LANGUAGE_INSTRUCT_300M_IMAGE_TOKENIZER_GENERIC_GENERIC_H16C_IFP_Cryptex.dmg",
+   "family": "FM_GenerativeModels",
+   "bytes": 327155712,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/910d90bc6f66498798034d81666eb49f11f66e48.asset/SecureAssetData/SecureMobileAsset.dmg",
+   "family": "FM_GenerativeModels",
+   "bytes": 327155712,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/92f324d91b3f367521c969904d09fb62dec1eab1.asset/AssetData/Restore/UC_FM_LANGUAGE_INSTRUCT_3B_CONCISE_TONE_DRAFT_GENERIC_GENERIC_H16C_Cryptex.dmg",
+   "family": "FM_GenerativeModels",
+   "bytes": 44040192,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/92f324d91b3f367521c969904d09fb62dec1eab1.asset/SecureAssetData/SecureMobileAsset.dmg",
+   "family": "FM_GenerativeModels",
+   "bytes": 44040192,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/97ef6a4987cefa6be5cda0ce19b141083851eb34.asset/AssetData/Restore/UC_FM_LANGUAGE_INSTRUCT_3B_EMBEDDINGS_GENERIC_GENERIC_H16C_IFP_Cryptex.dmg",
+   "family": "FM_GenerativeModels",
+   "bytes": 285212672,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/97ef6a4987cefa6be5cda0ce19b141083851eb34.asset/SecureAssetData/SecureMobileAsset.dmg",
+   "family": "FM_GenerativeModels",
+   "bytes": 285212672,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/a1f3f0ec64739fb667393d9099ddf528a979d91f.asset/AssetData/Restore/UC_FM_LANGUAGE_INSTRUCT_3B_MACHINE_TRANSLATION_DRAFT_GENERIC_GENERIC_H16C_Cryptex.dmg",
+   "family": "FM_GenerativeModels",
+   "bytes": 44040192,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/a1f3f0ec64739fb667393d9099ddf528a979d91f.asset/SecureAssetData/SecureMobileAsset.dmg",
+   "family": "FM_GenerativeModels",
+   "bytes": 44040192,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/a3be53c1357557e434012e863245f435700b83dc.asset/AssetData/Restore/UC_FM_LANGUAGE_INSTRUCT_3B_TEXT_PERSON_EXTRACTION_DRAFT_GENERIC_SPARSE_GENERIC_H16C_IFP_Cryptex.dmg",
+   "family": "FM_GenerativeModels",
+   "bytes": 54525952,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/a3be53c1357557e434012e863245f435700b83dc.asset/SecureAssetData/SecureMobileAsset.dmg",
+   "family": "FM_GenerativeModels",
+   "bytes": 54525952,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/a4e407a9d2534b9d34e28a61b6afb0b9af93eaa9.asset/AssetData/Restore/UC_FM_SPEECH_TOKENIZER_V1_GENERIC_SPARSE_GENERIC_H16C_IFP_Cryptex.dmg",
+   "family": "FM_GenerativeModels",
+   "bytes": 360710144,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/a4e407a9d2534b9d34e28a61b6afb0b9af93eaa9.asset/SecureAssetData/SecureMobileAsset.dmg",
+   "family": "FM_GenerativeModels",
+   "bytes": 360710144,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/a76383398592fedfb0f4e3388b5073952170e7f5.asset/AssetData/Restore/UC_FM_LANGUAGE_INSTRUCT_3B_TEXT_PERSON_EXTRACTION_DRAFT_GENERIC_GENERIC_H16C_Cryptex.dmg",
+   "family": "FM_GenerativeModels",
+   "bytes": 44040192,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/a76383398592fedfb0f4e3388b5073952170e7f5.asset/SecureAssetData/SecureMobileAsset.dmg",
+   "family": "FM_GenerativeModels",
+   "bytes": 44040192,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/c28d69db54380e6d2ac09a652cb04c424274dda6.asset/AssetData/Restore/UC_FM_LANGUAGE_INSTRUCT_3B_TEXT_EVENT_EXTRACTION_DRAFT_GENERIC_GENERIC_H16C_Cryptex.dmg",
+   "family": "FM_GenerativeModels",
+   "bytes": 44040192,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/c28d69db54380e6d2ac09a652cb04c424274dda6.asset/SecureAssetData/SecureMobileAsset.dmg",
+   "family": "FM_GenerativeModels",
+   "bytes": 44040192,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/c3b96d29b944652e344d17513ec0092e523844eb.asset/AssetData/Restore/UC_FM_LANGUAGE_INSTRUCT_3B_SUMMARIZATION_DRAFT_GENERIC_SPARSE_GENERIC_H16C_IFP_Cryptex.dmg",
+   "family": "FM_GenerativeModels",
+   "bytes": 54525952,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/c3b96d29b944652e344d17513ec0092e523844eb.asset/SecureAssetData/SecureMobileAsset.dmg",
+   "family": "FM_GenerativeModels",
+   "bytes": 54525952,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/d339023ef5b64424f7dbdf9c17ddcb9fe91d8d25.asset/AssetData/Restore/UC_FM_LANGUAGE_INSTRUCT_3B_MACHINE_TRANSLATION_DRAFT_GENERIC_SPARSE_GENERIC_H16C_IFP_Cryptex.dmg",
+   "family": "FM_GenerativeModels",
+   "bytes": 54525952,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/d339023ef5b64424f7dbdf9c17ddcb9fe91d8d25.asset/SecureAssetData/SecureMobileAsset.dmg",
+   "family": "FM_GenerativeModels",
+   "bytes": 54525952,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/d9bec9fc34698405d24995c6e5d91f295e1e522a.asset/AssetData/Restore/UC_FM_LANGUAGE_INSTRUCT_3B_ADM_PROMPT_ANALYZER_DRAFT_GENERIC_SPARSE_GENERIC_H16C_IFP_Cryptex.dmg",
+   "family": "FM_GenerativeModels",
+   "bytes": 54525952,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/d9bec9fc34698405d24995c6e5d91f295e1e522a.asset/SecureAssetData/SecureMobileAsset.dmg",
+   "family": "FM_GenerativeModels",
+   "bytes": 54525952,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/d9fe76f9191398c6ccd0a9451d33bdfb668bf12e.asset/AssetData/Restore/UC_FM_LANGUAGE_INSTRUCT_3B_NEWS_TOPIC_SUMMARIZATION_DRAFT_GENERIC_SPARSE_GENERIC_H16C_IFP_Cryptex.dmg",
+   "family": "FM_GenerativeModels",
+   "bytes": 54525952,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/d9fe76f9191398c6ccd0a9451d33bdfb668bf12e.asset/SecureAssetData/SecureMobileAsset.dmg",
+   "family": "FM_GenerativeModels",
+   "bytes": 54525952,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/df6f492f4234d49aeafc94ff09baa5cefc2af762.asset/AssetData/Restore/UC_FM_LANGUAGE_INSTRUCT_9M_TEXT_EVENT_EXTRACTION_CLASSIFIER_BASE_GENERIC_GENERIC_H16C_Cryptex.dmg",
+   "family": "FM_GenerativeModels",
+   "bytes": 113246208,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/df6f492f4234d49aeafc94ff09baa5cefc2af762.asset/SecureAssetData/SecureMobileAsset.dmg",
+   "family": "FM_GenerativeModels",
+   "bytes": 113246208,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/df9df456f7160b8c9e9abf76460102db10a142ed.asset/AssetData/Restore/UC_FM_LANGUAGE_INSTRUCT_3B_MESSAGES_REPLY_DRAFT_GENERIC_GENERIC_H16C_Cryptex.dmg",
+   "family": "FM_GenerativeModels",
+   "bytes": 44040192,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/df9df456f7160b8c9e9abf76460102db10a142ed.asset/SecureAssetData/SecureMobileAsset.dmg",
+   "family": "FM_GenerativeModels",
+   "bytes": 44040192,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/e7d86ba889ef85197d65b26663ceb0acb2ebb15d.asset/AssetData/Restore/UC_FM_SPEECH_DETOKENIZER_V1_GENERIC_GENERIC_H16C_IFP_Cryptex.dmg",
+   "family": "FM_GenerativeModels",
+   "bytes": 367001600,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/e7d86ba889ef85197d65b26663ceb0acb2ebb15d.asset/SecureAssetData/SecureMobileAsset.dmg",
+   "family": "FM_GenerativeModels",
+   "bytes": 367001600,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/e7feb29dbf69e7dc77d4baed8f94387f2f9e7f66.asset/AssetData/Restore/UC_FM_LANGUAGE_INSTRUCT_3B_IMAGE_TOKENIZER_GENERIC_GENERIC_H16C_Cryptex.dmg",
+   "family": "FM_GenerativeModels",
+   "bytes": 205520896,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/e7feb29dbf69e7dc77d4baed8f94387f2f9e7f66.asset/SecureAssetData/SecureMobileAsset.dmg",
+   "family": "FM_GenerativeModels",
+   "bytes": 205520896,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/ea75b8976658d7be99b4a20bf4fcb933fc98426b.asset/AssetData/Restore/UC_FM_LANGUAGE_INSTRUCT_3B_PERSONALIZED_SMART_REPLY_DRAFT_GENERIC_SPARSE_GENERIC_H16C_IFP_Cryptex.dmg",
+   "family": "FM_GenerativeModels",
+   "bytes": 54525952,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/ea75b8976658d7be99b4a20bf4fcb933fc98426b.asset/SecureAssetData/SecureMobileAsset.dmg",
+   "family": "FM_GenerativeModels",
+   "bytes": 54525952,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/f7457bc3ed14f3e780e5a648cbc9a2a340baa181.asset/AssetData/Restore/UC_FM_LANGUAGE_INSTRUCT_3B_PROOFREADING_REVIEW_DRAFT_GENERIC_GENERIC_H16C_Cryptex.dmg",
+   "family": "FM_GenerativeModels",
+   "bytes": 44040192,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/f7457bc3ed14f3e780e5a648cbc9a2a340baa181.asset/SecureAssetData/SecureMobileAsset.dmg",
+   "family": "FM_GenerativeModels",
+   "bytes": 44040192,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/fdecc1665026e07a9cdb4deb0993b06db9fa80c8.asset/AssetData/Restore/UC_FM_LANGUAGE_INSTRUCT_300M_OPEN_ENDED_EXTRACT_DRAFT_GENERIC_GENERIC_H16C_IFP_Cryptex.dmg",
+   "family": "FM_GenerativeModels",
+   "bytes": 65011712,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/fdecc1665026e07a9cdb4deb0993b06db9fa80c8.asset/SecureAssetData/SecureMobileAsset.dmg",
+   "family": "FM_GenerativeModels",
+   "bytes": 65011712,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_Visual/purpose_auto/ce267bb89907b173845bd6449dff0abcfe6d7a1b.asset/AssetData/Restore/UC_FM_VISUAL_IMAGE_DIFFUSION_V1_BASE_GENERIC_H16C_Cryptex.dmg",
+   "family": "FM_Visual",
+   "bytes": 1411383296,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_FM_Visual/purpose_auto/ce267bb89907b173845bd6449dff0abcfe6d7a1b.asset/SecureAssetData/SecureMobileAsset.dmg",
+   "family": "FM_Visual",
+   "bytes": 1411383296,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_IF_Planner/purpose_auto/8cb429d6c56da5ba7e53ef403145db7565e27238.asset/AssetData/Restore/UC_IF_PLANNER_NLROUTER_BASE_EN_GENERIC_H16C_Cryptex.dmg",
+   "family": "IF_Planner",
+   "bytes": 226492416,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_IF_Planner/purpose_auto/8cb429d6c56da5ba7e53ef403145db7565e27238.asset/SecureAssetData/SecureMobileAsset.dmg",
+   "family": "IF_Planner",
+   "bytes": 226492416,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_IF_Planner/purpose_auto/8efb4cc9ee79273eb1386e97f0937ab7cab4cf15.asset/AssetData/Restore/UC_IF_PLANNER_CONTEXT_FILTER_GENERIC_H16C_Cryptex.dmg",
+   "family": "IF_Planner",
+   "bytes": 65011712,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_IF_Planner/purpose_auto/8efb4cc9ee79273eb1386e97f0937ab7cab4cf15.asset/SecureAssetData/SecureMobileAsset.dmg",
+   "family": "IF_Planner",
+   "bytes": 65011712,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_Photos_SpatialPhotosRelive/purpose_auto/0733d09213d6b19e5da80e23b128af781a146ca1.asset/AssetData/Restore/UC_PHOTOS_SPATIALPHOTOSRELIVE_FOV_MAIN_GENERIC_GENERIC_H16C_Cryptex.dmg",
+   "family": "Photos_SpatialPhotosRelive",
+   "bytes": 29360128,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_Photos_SpatialPhotosRelive/purpose_auto/0733d09213d6b19e5da80e23b128af781a146ca1.asset/SecureAssetData/SecureMobileAsset.dmg",
+   "family": "Photos_SpatialPhotosRelive",
+   "bytes": 29360128,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_Photos_SpatialPhotosRelive/purpose_auto/28aaffdc148bbf6cd7dbc27c2b30d781eb8535a6.asset/AssetData/Restore/UC_PHOTOS_SPATIALPHOTOSRELIVE_MAIN_GENERIC_GENERIC_H16C_Cryptex.dmg",
+   "family": "Photos_SpatialPhotosRelive",
+   "bytes": 406847488,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_Photos_SpatialPhotosRelive/purpose_auto/28aaffdc148bbf6cd7dbc27c2b30d781eb8535a6.asset/SecureAssetData/SecureMobileAsset.dmg",
+   "family": "Photos_SpatialPhotosRelive",
+   "bytes": 406847488,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_Siri_Understanding/purpose_auto/73cd5e4508042041a0050d812ac75924495bf564.asset/AssetData/Restore/UC_SIRI_ASR_ASSISTANT_EN_GB_EN_GB_H16C_Cryptex.dmg",
+   "family": "Siri_Understanding",
+   "bytes": 689963008,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_Siri_Understanding/purpose_auto/73cd5e4508042041a0050d812ac75924495bf564.asset/SecureAssetData/SecureMobileAsset.dmg",
+   "family": "Siri_Understanding",
+   "bytes": 689963008,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_Siri_Understanding/purpose_auto/b9af5b97a8e33df9e7fbcf40bbbc0670377387cf.asset/AssetData/Restore/UC_SIRI_ASR_ASSISTANT_EN_US_EN_US_H16C_Cryptex.dmg",
+   "family": "Siri_Understanding",
+   "bytes": 681574400,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_Siri_Understanding/purpose_auto/b9af5b97a8e33df9e7fbcf40bbbc0670377387cf.asset/SecureAssetData/SecureMobileAsset.dmg",
+   "family": "Siri_Understanding",
+   "bytes": 681574400,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_Speech_AutomaticSpeechRecognition/purpose_auto/eab14dbf04d5f3c358b300781b801b146249c254.asset/AssetData/Restore/UC_SPEECH_ASR_TRANSCRIPTION_EN_GENERIC_H16C_Cryptex.dmg",
+   "family": "Speech_AutomaticSpeechRecognition",
+   "bytes": 205520896,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  },
+  {
+   "path": "com_apple_MobileAsset_UAF_Speech_AutomaticSpeechRecognition/purpose_auto/eab14dbf04d5f3c358b300781b801b146249c254.asset/SecureAssetData/SecureMobileAsset.dmg",
+   "family": "Speech_AutomaticSpeechRecognition",
+   "bytes": 205520896,
+   "encrypted": false,
+   "imageinfo": {
+    "Class Name": "CBSDBackingStore",
+    "Format": "raw read/write",
+    "Encrypted": "false"
+   }
+  }
+ ]
+}

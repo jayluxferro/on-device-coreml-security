@@ -1,0 +1,5386 @@
+{
+ "date": "2026-10-04 (this dump); raw walk 2026-08-01",
+ "source": ".scratch/uaf_inventory.json -- localization blocks of the FM_GenerativeModels metadata blobs (89 of 92 blobs carry localization; 92 = 64 visible AssetData/metadata.json + 27 hidden .AssetData/metadata.json + 1 nested compiled-model metadata.json)",
+ "conventions": "one instance per leaf string of the two prompt maps localization['chat.role.system.default'] and localization['chat.role.system']. localization['user_defined_fields'] (present in 1 blob) is excluded. The paper's Sec. 5.3\n'localization layer' paragraph cites: 89 blobs, 5127 instances, 757 distinct strings, 56 locale codes, partition {'other': 448, 'shell': 1, 'locale_default': 300, 'released': 8}.",
+ "blobs_with_localization": 89,
+ "blobs_total": 92,
+ "maps": {
+  "chat.role.system.default": {
+   "blobs": 89,
+   "instances": 4231,
+   "distinct": 134
+  },
+  "chat.role.system": {
+   "blobs": 30,
+   "instances": 896,
+   "distinct": 659
+  }
+ },
+ "instances_total": 5127,
+ "distinct_total": 757,
+ "locale_keys": [
+  "ar_AE",
+  "ar_EG",
+  "ar_SA",
+  "da_DK",
+  "de_AT",
+  "de_CH",
+  "de_DE",
+  "en_AU",
+  "en_CA",
+  "en_GB",
+  "en_HK",
+  "en_IE",
+  "en_IN",
+  "en_NZ",
+  "en_SG",
+  "en_US",
+  "en_ZA",
+  "es_CL",
+  "es_ES",
+  "es_MX",
+  "es_US",
+  "fi_FI",
+  "fr_BE",
+  "fr_CA",
+  "fr_CH",
+  "fr_FR",
+  "he_IL",
+  "hi_IN",
+  "hi_Latn",
+  "id_ID",
+  "it",
+  "it_CH",
+  "it_IT",
+  "ja",
+  "ja_JP",
+  "ko",
+  "ko_KR",
+  "ms_MY",
+  "nb_NO",
+  "nl_BE",
+  "nl_NL",
+  "no_NO",
+  "pl_PL",
+  "pt_BR",
+  "pt_PT",
+  "ru_RU",
+  "sv_SE",
+  "th_TH",
+  "tr_TR",
+  "uk_UA",
+  "vi_VI",
+  "vi_VN",
+  "zh",
+  "zh_CN",
+  "zh_HK",
+  "zh_TW"
+ ],
+ "partition": {
+  "other": 448,
+  "shell": 1,
+  "locale_default": 300,
+  "released": 8
+ },
+ "strings": [
+  {
+   "sha8": "e3b0c442",
+   "len": 0,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": ""
+  },
+  {
+   "sha8": "77f1bc35",
+   "len": 20,
+   "class": "shell",
+   "in_released_corpus": true,
+   "head": "<turn_start> system / "
+  },
+  {
+   "sha8": "9946be85",
+   "len": 163,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system /   Respond in Australian English. You are"
+  },
+  {
+   "sha8": "75153534",
+   "len": 160,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system /   Respond in British English. You are an"
+  },
+  {
+   "sha8": "f6177ace",
+   "len": 161,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system /   Respond in Canadian English. You are a"
+  },
+  {
+   "sha8": "b91a4665",
+   "len": 173,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system /   Respond in English as spoken in Irelan"
+  },
+  {
+   "sha8": "a07eefda",
+   "len": 177,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system /   Respond in English as spoken in New Ze"
+  },
+  {
+   "sha8": "b0261d20",
+   "len": 175,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system /   Respond in English as spoken in Singap"
+  },
+  {
+   "sha8": "cee3a7df",
+   "len": 178,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system /   Respond in English as spoken in South "
+  },
+  {
+   "sha8": "62cf9612",
+   "len": 159,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system /   Respond in Indian English. You are an "
+  },
+  {
+   "sha8": "c1dcdf66",
+   "len": 132,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system /   You are an intelligent assistant that "
+  },
+  {
+   "sha8": "2660e537",
+   "len": 52,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system /  Predice la siguiente respuesta:"
+  },
+  {
+   "sha8": "31bb72f0",
+   "len": 130,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system /  You are provided OCR-extracted text fro"
+  },
+  {
+   "sha8": "bb775a38",
+   "len": 3477,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / .You are an expert AI specializing in ta"
+  },
+  {
+   "sha8": "13a0b8c5",
+   "len": 3527,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / .You are an expert AI specializing in ta"
+  },
+  {
+   "sha8": "4f405d50",
+   "len": 3527,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / .You are an expert AI specializing in ta"
+  },
+  {
+   "sha8": "6a061a2c",
+   "len": 3527,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / .You are an expert AI specializing in ta"
+  },
+  {
+   "sha8": "0d41fe3a",
+   "len": 3527,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / .You are an expert AI specializing in ta"
+  },
+  {
+   "sha8": "b23acad0",
+   "len": 3527,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / .You are an expert AI specializing in ta"
+  },
+  {
+   "sha8": "c3c9b6eb",
+   "len": 3527,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / .You are an expert AI specializing in ta"
+  },
+  {
+   "sha8": "a0f56edf",
+   "len": 3527,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / .You are an expert AI specializing in ta"
+  },
+  {
+   "sha8": "e9b9cc07",
+   "len": 3527,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / .You are an expert AI specializing in ta"
+  },
+  {
+   "sha8": "70988480",
+   "len": 3527,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / .You are an expert AI specializing in ta"
+  },
+  {
+   "sha8": "27a5973d",
+   "len": 3527,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / .You are an expert AI specializing in ta"
+  },
+  {
+   "sha8": "437576ea",
+   "len": 3527,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / .You are an expert AI specializing in ta"
+  },
+  {
+   "sha8": "05654436",
+   "len": 3527,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / .You are an expert AI specializing in ta"
+  },
+  {
+   "sha8": "ee8d849c",
+   "len": 3527,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / .You are an expert AI specializing in ta"
+  },
+  {
+   "sha8": "dfd6002d",
+   "len": 3527,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / .You are an expert AI specializing in ta"
+  },
+  {
+   "sha8": "19671902",
+   "len": 3527,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / .You are an expert AI specializing in ta"
+  },
+  {
+   "sha8": "7e7c1a7b",
+   "len": 3527,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / .You are an expert AI specializing in ta"
+  },
+  {
+   "sha8": "6761d2d8",
+   "len": 3527,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / .You are an expert AI specializing in ta"
+  },
+  {
+   "sha8": "17175949",
+   "len": 3527,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / .You are an expert AI specializing in ta"
+  },
+  {
+   "sha8": "3b103d02",
+   "len": 3527,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / .You are an expert AI specializing in ta"
+  },
+  {
+   "sha8": "72bbcd0e",
+   "len": 3527,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / .You are an expert AI specializing in ta"
+  },
+  {
+   "sha8": "2d8f3c63",
+   "len": 3527,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / .You are an expert AI specializing in ta"
+  },
+  {
+   "sha8": "d84ddc33",
+   "len": 3527,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / .You are an expert AI specializing in ta"
+  },
+  {
+   "sha8": "349e2d9b",
+   "len": 74,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "4cbbd38d",
+   "len": 102,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "763ab554",
+   "len": 102,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "2258eb27",
+   "len": 102,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "8c79b6cb",
+   "len": 101,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "77a8118b",
+   "len": 102,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "8b2cfd6c",
+   "len": 167,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "9783a390",
+   "len": 252,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "c87d89db",
+   "len": 171,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "f7493edb",
+   "len": 159,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "7a8ed190",
+   "len": 165,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "b538a78b",
+   "len": 177,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "6f394ac9",
+   "len": 102,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "1a33e00b",
+   "len": 167,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "0fccff5c",
+   "len": 252,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "58f014dd",
+   "len": 171,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "49cc886e",
+   "len": 159,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "479eeec5",
+   "len": 165,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "0405bb33",
+   "len": 177,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "c0547d59",
+   "len": 102,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "e8429fb8",
+   "len": 167,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "a798b366",
+   "len": 256,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "3d3c4b87",
+   "len": 171,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "075bf292",
+   "len": 163,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "77f328d2",
+   "len": 169,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "d50c2657",
+   "len": 181,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "35d569a1",
+   "len": 102,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "61cde6bb",
+   "len": 167,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "4d78dc5e",
+   "len": 252,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "880c36c8",
+   "len": 171,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "d48dcacd",
+   "len": 159,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "1bc3b797",
+   "len": 165,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "051cc531",
+   "len": 177,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "bf6a24ee",
+   "len": 102,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "bed4b6ca",
+   "len": 168,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "3f1784ed",
+   "len": 171,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "7e3e4f26",
+   "len": 162,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "f05d4d0d",
+   "len": 168,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "8f2ee9bc",
+   "len": 180,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "bf361812",
+   "len": 102,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "6378f397",
+   "len": 168,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "493f1313",
+   "len": 171,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "d2272eda",
+   "len": 165,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "43e1949c",
+   "len": 177,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "fe5ac729",
+   "len": 102,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "e6d1f6b3",
+   "len": 168,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "f637d139",
+   "len": 171,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "02f3d76a",
+   "len": 155,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "a2687efb",
+   "len": 173,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "4adc6967",
+   "len": 185,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "13398b18",
+   "len": 102,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "059eb3c9",
+   "len": 168,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "cdaf9f92",
+   "len": 171,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "dd49f4a4",
+   "len": 160,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "04a641b3",
+   "len": 166,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "98e9ad34",
+   "len": 178,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "155718aa",
+   "len": 102,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "d299211f",
+   "len": 168,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "57b9e8dd",
+   "len": 171,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "9aa20fce",
+   "len": 159,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "e08667a8",
+   "len": 164,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "0fe24046",
+   "len": 176,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "75049d23",
+   "len": 102,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "b5d235c0",
+   "len": 168,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "2b466fc3",
+   "len": 171,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "4ee9fd4c",
+   "len": 164,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "6ff3d6e8",
+   "len": 171,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "fc4734c3",
+   "len": 182,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "02e1d4d7",
+   "len": 102,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "a714de0d",
+   "len": 168,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "a954d63b",
+   "len": 171,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "8ae730c2",
+   "len": 162,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "2d1687a7",
+   "len": 168,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "61447349",
+   "len": 180,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "fd644b78",
+   "len": 172,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "10b449e1",
+   "len": 184,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "288221ba",
+   "len": 102,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "e0152806",
+   "len": 168,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "cd1dbf85",
+   "len": 171,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "3ac247dc",
+   "len": 165,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "5916e57d",
+   "len": 171,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "6ea841b2",
+   "len": 183,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "c5539334",
+   "len": 102,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "c7fa5c40",
+   "len": 168,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "fb7edb62",
+   "len": 251,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "d3dfc7a7",
+   "len": 171,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "13ca01e4",
+   "len": 158,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "b5f5e7cf",
+   "len": 164,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "56f2a717",
+   "len": 176,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "6e0b87f5",
+   "len": 102,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "3543ddbe",
+   "len": 168,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "a85f52c3",
+   "len": 251,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "e3c4299c",
+   "len": 171,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "fbd79ffd",
+   "len": 158,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "c8c6383f",
+   "len": 164,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "4bc31d8b",
+   "len": 176,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "d9c9123c",
+   "len": 102,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "2f488f43",
+   "len": 168,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "bc9db06a",
+   "len": 252,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "f4c80a89",
+   "len": 171,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "18f7a22c",
+   "len": 159,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "e71b14d4",
+   "len": 165,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "34f075e7",
+   "len": 177,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "f66f80cc",
+   "len": 102,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "15938939",
+   "len": 168,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "175535f9",
+   "len": 248,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "5f05f695",
+   "len": 171,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "05b316dc",
+   "len": 155,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "a71a3d10",
+   "len": 161,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "2fa74c53",
+   "len": 173,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "cf5d350b",
+   "len": 102,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "fd0bfdd9",
+   "len": 102,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "f31dc7ec",
+   "len": 167,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "9ca09193",
+   "len": 252,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "ab54e037",
+   "len": 171,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "2b45f3d1",
+   "len": 159,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "064e3e1d",
+   "len": 165,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "5e15322c",
+   "len": 177,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "efb0dcc7",
+   "len": 102,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "79d34ec1",
+   "len": 167,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "c8ca22b4",
+   "len": 251,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "a263125a",
+   "len": 171,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "b2b7fba7",
+   "len": 158,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "1193d497",
+   "len": 169,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "171c459b",
+   "len": 181,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "fbcc53c0",
+   "len": 102,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "24c553dd",
+   "len": 167,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "ec2f6c63",
+   "len": 256,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "890ddb41",
+   "len": 171,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "da55a027",
+   "len": 163,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "c69d4e57",
+   "len": 164,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "6575bb62",
+   "len": 176,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "a09975cb",
+   "len": 102,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "cd0a50f8",
+   "len": 167,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "eb456690",
+   "len": 251,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "91c72938",
+   "len": 171,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "d0af1864",
+   "len": 158,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "aad211bd",
+   "len": 164,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "b81d88ec",
+   "len": 176,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "136743da",
+   "len": 102,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "0749e507",
+   "len": 102,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "5a9a4ff5",
+   "len": 104,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "6eade651",
+   "len": 102,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "2a98b763",
+   "len": 102,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "0fa47183",
+   "len": 168,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "e5ac183b",
+   "len": 257,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "1d113023",
+   "len": 171,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "79ffbebe",
+   "len": 164,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "36709dba",
+   "len": 170,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "c4aa7a03",
+   "len": 182,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "8a43fc9d",
+   "len": 102,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "462a5f1c",
+   "len": 168,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "e56accf6",
+   "len": 251,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "20688f8f",
+   "len": 171,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "00038062",
+   "len": 158,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "6056581d",
+   "len": 164,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "9f9f10ca",
+   "len": 176,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "144c8896",
+   "len": 102,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "30aeefbc",
+   "len": 169,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "ec897c6b",
+   "len": 252,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "bd0d89be",
+   "len": 171,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "4561c7eb",
+   "len": 159,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "d2757c34",
+   "len": 165,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "03c70d14",
+   "len": 177,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "4f1ab15d",
+   "len": 102,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "e097c016",
+   "len": 167,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "86cce72e",
+   "len": 250,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "3ad59eba",
+   "len": 171,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "b3a89df6",
+   "len": 157,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "817faefa",
+   "len": 163,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "81258744",
+   "len": 175,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "7ef142f5",
+   "len": 102,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "2eb18a90",
+   "len": 102,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "48d82c39",
+   "len": 254,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "da4b3504",
+   "len": 168,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "1b76bf2d",
+   "len": 102,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "e6676a04",
+   "len": 166,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "45d8d0f6",
+   "len": 171,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "52a638dc",
+   "len": 164,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "5ba5bc46",
+   "len": 176,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "98176f87",
+   "len": 102,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "44f262ce",
+   "len": 166,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "3470b824",
+   "len": 255,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "a06b700e",
+   "len": 171,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "34a94568",
+   "len": 162,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "959ce3b9",
+   "len": 168,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "b64d9424",
+   "len": 180,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "4b72a621",
+   "len": 102,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "1da9df2c",
+   "len": 170,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "186f9e2b",
+   "len": 171,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "20be47c6",
+   "len": 168,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "0e1a36b6",
+   "len": 167,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "cb9c7793",
+   "len": 179,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "5bce3c96",
+   "len": 102,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "9f284233",
+   "len": 102,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "2325c075",
+   "len": 171,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "86fd7f93",
+   "len": 255,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "8c61697a",
+   "len": 171,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "63e088ee",
+   "len": 162,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "eb6a6deb",
+   "len": 168,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "553798de",
+   "len": 180,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "81c7e3dc",
+   "len": 102,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "7fb9b852",
+   "len": 171,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "afd60e6f",
+   "len": 257,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "28b7057a",
+   "len": 171,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "365d2cfe",
+   "len": 164,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "862a5608",
+   "len": 170,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "1e24e1e4",
+   "len": 182,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "c9fb6738",
+   "len": 102,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "5e4ecd3c",
+   "len": 102,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "b2922994",
+   "len": 168,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "2d1d7565",
+   "len": 252,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "00fc9e97",
+   "len": 171,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "7fbf9de4",
+   "len": 159,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "a82542f7",
+   "len": 165,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "a6a22c4c",
+   "len": 177,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "009a31ec",
+   "len": 102,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "2c2437fc",
+   "len": 102,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "1f2d8c22",
+   "len": 168,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "a3f2fd70",
+   "len": 252,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "c63960ce",
+   "len": 171,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "26413e14",
+   "len": 159,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "7b4a56be",
+   "len": 165,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "8fe3e023",
+   "len": 177,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "5ac94f13",
+   "len": 102,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "c8a8620b",
+   "len": 102,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "27e2ccb3",
+   "len": 171,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "9d6aa96d",
+   "len": 256,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "6b9d5190",
+   "len": 171,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "d9873ddb",
+   "len": 163,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "f1b5a6e2",
+   "len": 169,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "035e3b9d",
+   "len": 181,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "753db411",
+   "len": 102,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "506fb01f",
+   "len": 179,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "76996a24",
+   "len": 262,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "76aad5fe",
+   "len": 171,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "85df15ed",
+   "len": 169,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "8c42a7fa",
+   "len": 175,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "fcfe5920",
+   "len": 187,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "b8a8f8cf",
+   "len": 102,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "ffded652",
+   "len": 180,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "8e70bc93",
+   "len": 267,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "5a21393d",
+   "len": 171,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "3199429f",
+   "len": 174,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "b250d420",
+   "len": 180,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "2a2c8a44",
+   "len": 192,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "cdbb9441",
+   "len": 102,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "2cdc1e3a",
+   "len": 180,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "d3a56735",
+   "len": 264,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "ef85141e",
+   "len": 171,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "7f14ceb5",
+   "len": 171,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "fa8fcb9c",
+   "len": 177,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "95bd7398",
+   "len": 189,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user and a help"
+  },
+  {
+   "sha8": "fd6c1f32",
+   "len": 195,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user located in"
+  },
+  {
+   "sha8": "7015eabc",
+   "len": 348,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user located in"
+  },
+  {
+   "sha8": "6f9d9694",
+   "len": 187,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user located in"
+  },
+  {
+   "sha8": "d294e56d",
+   "len": 333,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user located in"
+  },
+  {
+   "sha8": "e610e3af",
+   "len": 188,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user located in"
+  },
+  {
+   "sha8": "8360739b",
+   "len": 183,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user located in"
+  },
+  {
+   "sha8": "4a939c35",
+   "len": 333,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user located in"
+  },
+  {
+   "sha8": "bd60c4ef",
+   "len": 183,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user located in"
+  },
+  {
+   "sha8": "7cf3f0c6",
+   "len": 334,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user located in"
+  },
+  {
+   "sha8": "bd3fc8f4",
+   "len": 199,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user located in"
+  },
+  {
+   "sha8": "eb1b88fe",
+   "len": 354,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user located in"
+  },
+  {
+   "sha8": "30113b98",
+   "len": 197,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user located in"
+  },
+  {
+   "sha8": "065e97c0",
+   "len": 350,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user located in"
+  },
+  {
+   "sha8": "7066c427",
+   "len": 204,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user located in"
+  },
+  {
+   "sha8": "979f4779",
+   "len": 360,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / A conversation between a user located in"
+  },
+  {
+   "sha8": "91b6641d",
+   "len": 58,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Bu metni daha profesyonel bi\u00e7imde yaz."
+  },
+  {
+   "sha8": "910684a1",
+   "len": 83,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Change ce texte pour avoir une intonatio"
+  },
+  {
+   "sha8": "1fed7244",
+   "len": 56,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Correggi gli errori di questo testo:"
+  },
+  {
+   "sha8": "3274bdd7",
+   "len": 75,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Corrige les fautes dans ce texte en fran"
+  },
+  {
+   "sha8": "ca09665a",
+   "len": 55,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Corrigez les fautes dans ce texte :"
+  },
+  {
+   "sha8": "6fdcb537",
+   "len": 47,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / D\u1ef1 \u0111o\u00e1n ph\u1ea3n h\u1ed3i ti\u1ebfp theo:"
+  },
+  {
+   "sha8": "93625af0",
+   "len": 40,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Forudsig n\u00e6ste svar:"
+  },
+  {
+   "sha8": "112104de",
+   "len": 42,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Forutsi neste replikk:"
+  },
+  {
+   "sha8": "7397a674",
+   "len": 65,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / F\u00e5 denne tekst til at lyde mere professi"
+  },
+  {
+   "sha8": "8ab3c392",
+   "len": 40,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / F\u00f6ruts\u00e4g n\u00e4sta svar:"
+  },
+  {
+   "sha8": "2c042a72",
+   "len": 69,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Genera una predizione per la risposta su"
+  },
+  {
+   "sha8": "12c6175f",
+   "len": 62,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Gi denne teksten et mer profesjonelt pre"
+  },
+  {
+   "sha8": "1f7d554a",
+   "len": 57,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / G\u00f6r den h\u00e4r texten mer professionell."
+  },
+  {
+   "sha8": "ed6b3a6a",
+   "len": 96,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Haz este texto m\u00e1s profesional utilizand"
+  },
+  {
+   "sha8": "5a911af2",
+   "len": 51,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Haz este texto m\u00e1s profesional."
+  },
+  {
+   "sha8": "fd749eb3",
+   "len": 47,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Lese diesen Text korrektur:"
+  },
+  {
+   "sha8": "42a0b67b",
+   "len": 58,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / L\u00e0m cho v\u0103n b\u1ea3n n\u00e0y chuy\u00ean nghi\u1ec7p h\u01a1n."
+  },
+  {
+   "sha8": "9e20e40f",
+   "len": 51,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Maak deze tekst professioneler."
+  },
+  {
+   "sha8": "371297fa",
+   "len": 54,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Mache diesen Text professioneller."
+  },
+  {
+   "sha8": "bf5bc5c4",
+   "len": 48,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Make this text more concise."
+  },
+  {
+   "sha8": "05092fd6",
+   "len": 49,
+   "class": "released",
+   "in_released_corpus": true,
+   "head": "<turn_start> system / Make this text more friendly."
+  },
+  {
+   "sha8": "3a8c705e",
+   "len": 53,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Make this text more professional."
+  },
+  {
+   "sha8": "eb315d00",
+   "len": 96,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Predice la siguiente respuesta utilizand"
+  },
+  {
+   "sha8": "cecaa6b2",
+   "len": 63,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Predict next turn using Australian Engli"
+  },
+  {
+   "sha8": "df201c13",
+   "len": 60,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Predict next turn using British English:"
+  },
+  {
+   "sha8": "1967f679",
+   "len": 61,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Predict next turn using Canadian English"
+  },
+  {
+   "sha8": "13f2c8a8",
+   "len": 71,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Predict next turn using Dutch as spoken "
+  },
+  {
+   "sha8": "befc0e24",
+   "len": 73,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Predict next turn using English as spoke"
+  },
+  {
+   "sha8": "96c2e9e9",
+   "len": 77,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Predict next turn using English as spoke"
+  },
+  {
+   "sha8": "351751b8",
+   "len": 75,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Predict next turn using English as spoke"
+  },
+  {
+   "sha8": "307ac7a5",
+   "len": 78,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Predict next turn using English as spoke"
+  },
+  {
+   "sha8": "a63cc2c2",
+   "len": 59,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Predict next turn using Indian English:"
+  },
+  {
+   "sha8": "d24ccb60",
+   "len": 95,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Predict next turn using Indian Romanised"
+  },
+  {
+   "sha8": "6047193c",
+   "len": 38,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Predict next turn:"
+  },
+  {
+   "sha8": "b688f82b",
+   "len": 47,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Preveja a pr\u00f3xima resposta:"
+  },
+  {
+   "sha8": "40bb02c5",
+   "len": 203,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Proofread this text in English (India) a"
+  },
+  {
+   "sha8": "cabee077",
+   "len": 65,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Proofread this text using Australian Eng"
+  },
+  {
+   "sha8": "db330f64",
+   "len": 63,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Proofread this text using Bokm\u00e5l Norwegi"
+  },
+  {
+   "sha8": "97a662f1",
+   "len": 62,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Proofread this text using British Englis"
+  },
+  {
+   "sha8": "6b2f5fdf",
+   "len": 63,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Proofread this text using Canadian Engli"
+  },
+  {
+   "sha8": "3326b9be",
+   "len": 53,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Proofread this text using Danish:"
+  },
+  {
+   "sha8": "01dee65d",
+   "len": 71,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Proofread this text using Dutch as used "
+  },
+  {
+   "sha8": "6dbd238c",
+   "len": 79,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Proofread this text using Dutch as used "
+  },
+  {
+   "sha8": "d4f6775a",
+   "len": 73,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Proofread this text using English as use"
+  },
+  {
+   "sha8": "b7768ed5",
+   "len": 77,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Proofread this text using English as use"
+  },
+  {
+   "sha8": "d2731400",
+   "len": 75,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Proofread this text using English as use"
+  },
+  {
+   "sha8": "fc0f348c",
+   "len": 78,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Proofread this text using English as use"
+  },
+  {
+   "sha8": "02a81742",
+   "len": 61,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Proofread this text using Indian English"
+  },
+  {
+   "sha8": "aa737405",
+   "len": 77,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Proofread this text using Portuguese as "
+  },
+  {
+   "sha8": "53f96fad",
+   "len": 54,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Proofread this text using Swedish:"
+  },
+  {
+   "sha8": "4c555e54",
+   "len": 87,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Proofread this text using Traditional Ch"
+  },
+  {
+   "sha8": "b0e5bb7d",
+   "len": 84,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Proofread this text using Traditional Ch"
+  },
+  {
+   "sha8": "fcdc7b38",
+   "len": 54,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Proofread this text using Turkish:"
+  },
+  {
+   "sha8": "77698eb2",
+   "len": 57,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Proofread this text using Vietnamese:"
+  },
+  {
+   "sha8": "11930059",
+   "len": 40,
+   "class": "released",
+   "in_released_corpus": true,
+   "head": "<turn_start> system / Proofread this text:"
+  },
+  {
+   "sha8": "24711199",
+   "len": 84,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Pr\u00e9dis la prochaine r\u00e9ponse en fran\u00e7ais "
+  },
+  {
+   "sha8": "19a7c1c9",
+   "len": 85,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Pr\u00e9dis la prochaine r\u00e9ponse en fran\u00e7ais "
+  },
+  {
+   "sha8": "e246a96e",
+   "len": 53,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Rendi il testo pi\u00f9 professionale."
+  },
+  {
+   "sha8": "788cca5a",
+   "len": 85,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Rends le ton de ce texte plus profession"
+  },
+  {
+   "sha8": "63b50106",
+   "len": 79,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Respond in Australian English. Make this"
+  },
+  {
+   "sha8": "00284b4b",
+   "len": 80,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Respond in Australian English. Make this"
+  },
+  {
+   "sha8": "633a9944",
+   "len": 84,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Respond in Australian English. Make this"
+  },
+  {
+   "sha8": "23a173ab",
+   "len": 69,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Respond in Australian English. Rewrite t"
+  },
+  {
+   "sha8": "d3c93595",
+   "len": 77,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Respond in Bokm\u00e5l Norwegian. Make this t"
+  },
+  {
+   "sha8": "f277e9b2",
+   "len": 78,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Respond in Bokm\u00e5l Norwegian. Make this t"
+  },
+  {
+   "sha8": "161fe17f",
+   "len": 67,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Respond in Bokm\u00e5l Norwegian. Rewrite thi"
+  },
+  {
+   "sha8": "d13eb6f8",
+   "len": 76,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Respond in British English. Make this te"
+  },
+  {
+   "sha8": "e8551b5a",
+   "len": 77,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Respond in British English. Make this te"
+  },
+  {
+   "sha8": "491fa761",
+   "len": 81,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Respond in British English. Make this te"
+  },
+  {
+   "sha8": "22b8851c",
+   "len": 66,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Respond in British English. Rewrite this"
+  },
+  {
+   "sha8": "cc715233",
+   "len": 77,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Respond in Canadian English. Make this t"
+  },
+  {
+   "sha8": "f433c906",
+   "len": 78,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Respond in Canadian English. Make this t"
+  },
+  {
+   "sha8": "e3dee74a",
+   "len": 82,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Respond in Canadian English. Make this t"
+  },
+  {
+   "sha8": "71f92c9c",
+   "len": 67,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Respond in Canadian English. Rewrite thi"
+  },
+  {
+   "sha8": "05007c2d",
+   "len": 91,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Respond in Chinese as spoken in Hong Kon"
+  },
+  {
+   "sha8": "060272d4",
+   "len": 92,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Respond in Chinese as spoken in Hong Kon"
+  },
+  {
+   "sha8": "91f50516",
+   "len": 81,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Respond in Chinese as spoken in Hong Kon"
+  },
+  {
+   "sha8": "6b85deab",
+   "len": 96,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Respond in Chinese as spoken in Mainland"
+  },
+  {
+   "sha8": "6d3ed246",
+   "len": 97,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Respond in Chinese as spoken in Mainland"
+  },
+  {
+   "sha8": "036274a8",
+   "len": 86,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Respond in Chinese as spoken in Mainland"
+  },
+  {
+   "sha8": "165685fe",
+   "len": 88,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Respond in Chinese as spoken in Taiwan. "
+  },
+  {
+   "sha8": "2e430026",
+   "len": 89,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Respond in Chinese as spoken in Taiwan. "
+  },
+  {
+   "sha8": "27b7572e",
+   "len": 78,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Respond in Chinese as spoken in Taiwan. "
+  },
+  {
+   "sha8": "ad74a45e",
+   "len": 67,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Respond in Danish. Make this text more c"
+  },
+  {
+   "sha8": "0b3481de",
+   "len": 68,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Respond in Danish. Make this text more f"
+  },
+  {
+   "sha8": "750e9fc1",
+   "len": 57,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Respond in Danish. Rewrite this text."
+  },
+  {
+   "sha8": "c50b521d",
+   "len": 88,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Respond in Dutch as spoken in Belgium. M"
+  },
+  {
+   "sha8": "e332e95b",
+   "len": 95,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Respond in Dutch as spoken in the Nether"
+  },
+  {
+   "sha8": "697d8bb0",
+   "len": 96,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Respond in Dutch as spoken in the Nether"
+  },
+  {
+   "sha8": "f5a06d64",
+   "len": 85,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Respond in Dutch as spoken in the Nether"
+  },
+  {
+   "sha8": "b8e0e4a5",
+   "len": 89,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Respond in English as spoken in Ireland."
+  },
+  {
+   "sha8": "c0e87e67",
+   "len": 90,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Respond in English as spoken in Ireland."
+  },
+  {
+   "sha8": "aeb09d2d",
+   "len": 94,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Respond in English as spoken in Ireland."
+  },
+  {
+   "sha8": "d13a7db5",
+   "len": 79,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Respond in English as spoken in Ireland."
+  },
+  {
+   "sha8": "77cb6174",
+   "len": 93,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Respond in English as spoken in New Zeal"
+  },
+  {
+   "sha8": "b1943e78",
+   "len": 94,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Respond in English as spoken in New Zeal"
+  },
+  {
+   "sha8": "b56a7826",
+   "len": 98,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Respond in English as spoken in New Zeal"
+  },
+  {
+   "sha8": "0cecd5e0",
+   "len": 83,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Respond in English as spoken in New Zeal"
+  },
+  {
+   "sha8": "7c5a02de",
+   "len": 91,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Respond in English as spoken in Singapor"
+  },
+  {
+   "sha8": "3dcbe884",
+   "len": 92,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Respond in English as spoken in Singapor"
+  },
+  {
+   "sha8": "b5ef943e",
+   "len": 96,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Respond in English as spoken in Singapor"
+  },
+  {
+   "sha8": "ed470e89",
+   "len": 81,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Respond in English as spoken in Singapor"
+  },
+  {
+   "sha8": "6279d8cc",
+   "len": 94,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Respond in English as spoken in South Af"
+  },
+  {
+   "sha8": "591b8748",
+   "len": 95,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Respond in English as spoken in South Af"
+  },
+  {
+   "sha8": "d4ca67a8",
+   "len": 99,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Respond in English as spoken in South Af"
+  },
+  {
+   "sha8": "b9680286",
+   "len": 84,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Respond in English as spoken in South Af"
+  },
+  {
+   "sha8": "0222eb4d",
+   "len": 87,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Respond in French as spoken in Canada. M"
+  },
+  {
+   "sha8": "b0874cad",
+   "len": 88,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Respond in French as spoken in Canada. M"
+  },
+  {
+   "sha8": "02a7bc71",
+   "len": 77,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Respond in French as spoken in Canada. R"
+  },
+  {
+   "sha8": "ec6806ed",
+   "len": 87,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Respond in French as spoken in France. M"
+  },
+  {
+   "sha8": "c6de493d",
+   "len": 88,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Respond in French as spoken in France. M"
+  },
+  {
+   "sha8": "3bc60ade",
+   "len": 77,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Respond in French as spoken in France. R"
+  },
+  {
+   "sha8": "3b25d1de",
+   "len": 67,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Respond in German. Make this text more c"
+  },
+  {
+   "sha8": "fa18e814",
+   "len": 68,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Respond in German. Make this text more f"
+  },
+  {
+   "sha8": "e870ebdc",
+   "len": 57,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Respond in German. Rewrite this text."
+  },
+  {
+   "sha8": "7841977d",
+   "len": 75,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Respond in Indian English. Make this tex"
+  },
+  {
+   "sha8": "491d9ab6",
+   "len": 76,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Respond in Indian English. Make this tex"
+  },
+  {
+   "sha8": "f4e0ef09",
+   "len": 80,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Respond in Indian English. Make this tex"
+  },
+  {
+   "sha8": "0bbafdcc",
+   "len": 65,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Respond in Indian English. Rewrite this "
+  },
+  {
+   "sha8": "613f83a7",
+   "len": 68,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Respond in Italian. Make this text more "
+  },
+  {
+   "sha8": "d61a4cc9",
+   "len": 69,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Respond in Italian. Make this text more "
+  },
+  {
+   "sha8": "84fe3e4a",
+   "len": 58,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Respond in Italian. Rewrite this text."
+  },
+  {
+   "sha8": "1b3f9719",
+   "len": 69,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Respond in Japanese. Make this text more"
+  },
+  {
+   "sha8": "afc7d030",
+   "len": 70,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Respond in Japanese. Make this text more"
+  },
+  {
+   "sha8": "65013729",
+   "len": 59,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Respond in Japanese. Rewrite this text."
+  },
+  {
+   "sha8": "f73cfd7a",
+   "len": 67,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Respond in Korean. Make this text more c"
+  },
+  {
+   "sha8": "c45c6b7c",
+   "len": 68,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Respond in Korean. Make this text more f"
+  },
+  {
+   "sha8": "4a49fbd8",
+   "len": 57,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Respond in Korean. Rewrite this text."
+  },
+  {
+   "sha8": "21849b9e",
+   "len": 91,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Respond in Portuguese as spoken in Brazi"
+  },
+  {
+   "sha8": "8c5d9f5b",
+   "len": 92,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Respond in Portuguese as spoken in Brazi"
+  },
+  {
+   "sha8": "5f0d05eb",
+   "len": 81,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Respond in Portuguese as spoken in Brazi"
+  },
+  {
+   "sha8": "a41f580e",
+   "len": 93,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Respond in Portuguese as spoken in Portu"
+  },
+  {
+   "sha8": "24b4f91c",
+   "len": 94,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Respond in Portuguese as spoken in Portu"
+  },
+  {
+   "sha8": "efa3a725",
+   "len": 83,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Respond in Portuguese as spoken in Portu"
+  },
+  {
+   "sha8": "c1381526",
+   "len": 88,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Respond in Spanish as spoken in Mexico. "
+  },
+  {
+   "sha8": "90c58bf1",
+   "len": 89,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Respond in Spanish as spoken in Mexico. "
+  },
+  {
+   "sha8": "db5a870d",
+   "len": 78,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Respond in Spanish as spoken in Mexico. "
+  },
+  {
+   "sha8": "4f925703",
+   "len": 87,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Respond in Spanish as spoken in Spain. M"
+  },
+  {
+   "sha8": "6501cb44",
+   "len": 88,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Respond in Spanish as spoken in Spain. M"
+  },
+  {
+   "sha8": "bd745c1d",
+   "len": 77,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Respond in Spanish as spoken in Spain. R"
+  },
+  {
+   "sha8": "4744ba29",
+   "len": 68,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Respond in Swedish. Make this text more "
+  },
+  {
+   "sha8": "b99e7346",
+   "len": 69,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Respond in Swedish. Make this text more "
+  },
+  {
+   "sha8": "c4290012",
+   "len": 58,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Respond in Swedish. Rewrite this text."
+  },
+  {
+   "sha8": "892eaaf4",
+   "len": 68,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Respond in Turkish. Make this text more "
+  },
+  {
+   "sha8": "dc95cfc6",
+   "len": 69,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Respond in Turkish. Make this text more "
+  },
+  {
+   "sha8": "ace8cd04",
+   "len": 58,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Respond in Turkish. Rewrite this text."
+  },
+  {
+   "sha8": "18addbd3",
+   "len": 71,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Respond in Vietnamese. Make this text mo"
+  },
+  {
+   "sha8": "aba0db50",
+   "len": 72,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Respond in Vietnamese. Make this text mo"
+  },
+  {
+   "sha8": "b200abee",
+   "len": 61,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Respond in Vietnamese. Rewrite this text"
+  },
+  {
+   "sha8": "ef668654",
+   "len": 101,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Revisa y corrige el siguiente texto util"
+  },
+  {
+   "sha8": "ff8c4a37",
+   "len": 56,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Revisa y corrige el siguiente texto:"
+  },
+  {
+   "sha8": "f8b551e5",
+   "len": 38,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Revise este texto:"
+  },
+  {
+   "sha8": "86c6be82",
+   "len": 38,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Rewrite this text."
+  },
+  {
+   "sha8": "7e5bddde",
+   "len": 49,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Sage den n\u00e4chsten Zug voraus:"
+  },
+  {
+   "sha8": "8e3e5202",
+   "len": 55,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Torna este texto mais profissional."
+  },
+  {
+   "sha8": "b3e007e9",
+   "len": 55,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Torne este texto mais profissional."
+  },
+  {
+   "sha8": "365503d6",
+   "len": 47,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Voorspel volgende antwoord:"
+  },
+  {
+   "sha8": "3a244332",
+   "len": 37,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / Yan\u0131t\u0131 tahmin et:"
+  },
+  {
+   "sha8": "8b2871b7",
+   "len": 852,
+   "class": "released",
+   "in_released_corpus": true,
+   "head": "<turn_start> system / You are a helpful mail assistant which c"
+  },
+  {
+   "sha8": "7df898b1",
+   "len": 887,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are a helpful mail assistant which c"
+  },
+  {
+   "sha8": "f6971725",
+   "len": 874,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are a helpful mail assistant which c"
+  },
+  {
+   "sha8": "c42545f7",
+   "len": 884,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are a helpful mail assistant which c"
+  },
+  {
+   "sha8": "909d1ec4",
+   "len": 883,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are a helpful mail assistant which c"
+  },
+  {
+   "sha8": "8416a36e",
+   "len": 887,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are a helpful mail assistant which c"
+  },
+  {
+   "sha8": "a71e4d98",
+   "len": 886,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are a helpful mail assistant which c"
+  },
+  {
+   "sha8": "16fdc665",
+   "len": 890,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are a helpful mail assistant which c"
+  },
+  {
+   "sha8": "4225731b",
+   "len": 888,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are a helpful mail assistant which c"
+  },
+  {
+   "sha8": "004375c7",
+   "len": 891,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are a helpful mail assistant which c"
+  },
+  {
+   "sha8": "d3e41809",
+   "len": 884,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are a helpful mail assistant which c"
+  },
+  {
+   "sha8": "f0b0d674",
+   "len": 884,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are a helpful mail assistant which c"
+  },
+  {
+   "sha8": "f378b1e5",
+   "len": 885,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are a helpful mail assistant which c"
+  },
+  {
+   "sha8": "6000b929",
+   "len": 872,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are a helpful mail assistant which c"
+  },
+  {
+   "sha8": "e89501cf",
+   "len": 884,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are a helpful mail assistant which c"
+  },
+  {
+   "sha8": "6731ce4a",
+   "len": 885,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are a helpful mail assistant which c"
+  },
+  {
+   "sha8": "0861c6e5",
+   "len": 883,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are a helpful mail assistant which c"
+  },
+  {
+   "sha8": "ff1806f7",
+   "len": 886,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are a helpful mail assistant which c"
+  },
+  {
+   "sha8": "578b61d1",
+   "len": 888,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are a helpful mail assistant which c"
+  },
+  {
+   "sha8": "27f737a0",
+   "len": 890,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are a helpful mail assistant which c"
+  },
+  {
+   "sha8": "791b1de7",
+   "len": 895,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are a helpful mail assistant which c"
+  },
+  {
+   "sha8": "829129c3",
+   "len": 885,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are a helpful mail assistant which c"
+  },
+  {
+   "sha8": "e0b8fce5",
+   "len": 884,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are a helpful mail assistant which c"
+  },
+  {
+   "sha8": "2a675815",
+   "len": 884,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are a helpful mail assistant which c"
+  },
+  {
+   "sha8": "e38fb1fb",
+   "len": 899,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are a helpful mail assistant which c"
+  },
+  {
+   "sha8": "4ae1e666",
+   "len": 896,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are a helpful mail assistant which c"
+  },
+  {
+   "sha8": "d065dce1",
+   "len": 884,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are a helpful mail assistant which c"
+  },
+  {
+   "sha8": "8cc8854f",
+   "len": 888,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are a helpful mail assistant which c"
+  },
+  {
+   "sha8": "4b6dabb0",
+   "len": 493,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are an assistant which helps the use"
+  },
+  {
+   "sha8": "fb191d3c",
+   "len": 528,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are an assistant which helps the use"
+  },
+  {
+   "sha8": "e30a520d",
+   "len": 515,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are an assistant which helps the use"
+  },
+  {
+   "sha8": "0bb1199b",
+   "len": 526,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are an assistant which helps the use"
+  },
+  {
+   "sha8": "bc40b512",
+   "len": 525,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are an assistant which helps the use"
+  },
+  {
+   "sha8": "86c3442e",
+   "len": 529,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are an assistant which helps the use"
+  },
+  {
+   "sha8": "2a9debd1",
+   "len": 527,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are an assistant which helps the use"
+  },
+  {
+   "sha8": "b187e9bf",
+   "len": 531,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are an assistant which helps the use"
+  },
+  {
+   "sha8": "a86a2698",
+   "len": 529,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are an assistant which helps the use"
+  },
+  {
+   "sha8": "1a11526f",
+   "len": 532,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are an assistant which helps the use"
+  },
+  {
+   "sha8": "4d99711d",
+   "len": 525,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are an assistant which helps the use"
+  },
+  {
+   "sha8": "d2ea16ee",
+   "len": 525,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are an assistant which helps the use"
+  },
+  {
+   "sha8": "f7c505dd",
+   "len": 526,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are an assistant which helps the use"
+  },
+  {
+   "sha8": "28d90267",
+   "len": 513,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are an assistant which helps the use"
+  },
+  {
+   "sha8": "0410e30f",
+   "len": 525,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are an assistant which helps the use"
+  },
+  {
+   "sha8": "97b5065a",
+   "len": 526,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are an assistant which helps the use"
+  },
+  {
+   "sha8": "c5fbeacb",
+   "len": 524,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are an assistant which helps the use"
+  },
+  {
+   "sha8": "9c805070",
+   "len": 528,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are an assistant which helps the use"
+  },
+  {
+   "sha8": "01080885",
+   "len": 529,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are an assistant which helps the use"
+  },
+  {
+   "sha8": "16969277",
+   "len": 531,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are an assistant which helps the use"
+  },
+  {
+   "sha8": "34e4190e",
+   "len": 536,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are an assistant which helps the use"
+  },
+  {
+   "sha8": "31bfb6c1",
+   "len": 526,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are an assistant which helps the use"
+  },
+  {
+   "sha8": "9ce226dc",
+   "len": 525,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are an assistant which helps the use"
+  },
+  {
+   "sha8": "1c2c9862",
+   "len": 526,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are an assistant which helps the use"
+  },
+  {
+   "sha8": "17403a3f",
+   "len": 541,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are an assistant which helps the use"
+  },
+  {
+   "sha8": "b2f417d3",
+   "len": 538,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are an assistant which helps the use"
+  },
+  {
+   "sha8": "79eecdb3",
+   "len": 526,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are an assistant which helps the use"
+  },
+  {
+   "sha8": "0712f828",
+   "len": 530,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are an assistant which helps the use"
+  },
+  {
+   "sha8": "acb153ff",
+   "len": 219,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are an expert at summarization. Do n"
+  },
+  {
+   "sha8": "c83eaa25",
+   "len": 188,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are an expert at summarization. Do n"
+  },
+  {
+   "sha8": "228a4b56",
+   "len": 188,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are an expert at summarization. Do n"
+  },
+  {
+   "sha8": "08b83827",
+   "len": 188,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are an expert at summarization. Do n"
+  },
+  {
+   "sha8": "77767070",
+   "len": 188,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are an expert at summarization. Do n"
+  },
+  {
+   "sha8": "ef71b5c1",
+   "len": 188,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are an expert at summarization. Do n"
+  },
+  {
+   "sha8": "bbd10133",
+   "len": 188,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are an expert at summarization. Do n"
+  },
+  {
+   "sha8": "bea3eebe",
+   "len": 188,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are an expert at summarization. Do n"
+  },
+  {
+   "sha8": "02a0b73a",
+   "len": 188,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are an expert at summarization. Do n"
+  },
+  {
+   "sha8": "3b8da6ee",
+   "len": 188,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are an expert at summarization. Do n"
+  },
+  {
+   "sha8": "fa7c3e69",
+   "len": 188,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are an expert at summarization. Do n"
+  },
+  {
+   "sha8": "27b4a987",
+   "len": 188,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are an expert at summarization. Do n"
+  },
+  {
+   "sha8": "4f5dac41",
+   "len": 188,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are an expert at summarization. Do n"
+  },
+  {
+   "sha8": "2ffc5c56",
+   "len": 188,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are an expert at summarization. Do n"
+  },
+  {
+   "sha8": "1317483a",
+   "len": 188,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are an expert at summarization. Do n"
+  },
+  {
+   "sha8": "dc7b491a",
+   "len": 188,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are an expert at summarization. Do n"
+  },
+  {
+   "sha8": "e8b3dc6b",
+   "len": 188,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are an expert at summarization. Do n"
+  },
+  {
+   "sha8": "e46537b7",
+   "len": 188,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are an expert at summarization. Do n"
+  },
+  {
+   "sha8": "74b95f90",
+   "len": 188,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are an expert at summarization. Do n"
+  },
+  {
+   "sha8": "4eff694e",
+   "len": 188,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are an expert at summarization. Do n"
+  },
+  {
+   "sha8": "d015316a",
+   "len": 188,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are an expert at summarization. Do n"
+  },
+  {
+   "sha8": "31609886",
+   "len": 188,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are an expert at summarization. Do n"
+  },
+  {
+   "sha8": "2aeb4250",
+   "len": 188,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are an expert at summarization. Do n"
+  },
+  {
+   "sha8": "167e40e6",
+   "len": 188,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are an expert at summarization. Do n"
+  },
+  {
+   "sha8": "851d26b7",
+   "len": 188,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are an expert at summarization. Do n"
+  },
+  {
+   "sha8": "e6f27bfb",
+   "len": 188,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are an expert at summarization. Do n"
+  },
+  {
+   "sha8": "1b9467ce",
+   "len": 188,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are an expert at summarization. Do n"
+  },
+  {
+   "sha8": "a82ef499",
+   "len": 188,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are an expert at summarization. Do n"
+  },
+  {
+   "sha8": "a0215c49",
+   "len": 188,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are an expert at summarization. Do n"
+  },
+  {
+   "sha8": "065d62ea",
+   "len": 188,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are an expert at summarization. Do n"
+  },
+  {
+   "sha8": "42476f0a",
+   "len": 188,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are an expert at summarization. Do n"
+  },
+  {
+   "sha8": "00e3607e",
+   "len": 188,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are an expert at summarization. Do n"
+  },
+  {
+   "sha8": "3d74e9f7",
+   "len": 188,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are an expert at summarization. Do n"
+  },
+  {
+   "sha8": "40dcb08c",
+   "len": 188,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are an expert at summarization. Do n"
+  },
+  {
+   "sha8": "64248c90",
+   "len": 188,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are an expert at summarization. Do n"
+  },
+  {
+   "sha8": "5abbf747",
+   "len": 188,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are an expert at summarization. Do n"
+  },
+  {
+   "sha8": "3a1361c2",
+   "len": 188,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are an expert at summarization. Do n"
+  },
+  {
+   "sha8": "62b0c100",
+   "len": 188,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are an expert at summarization. Do n"
+  },
+  {
+   "sha8": "ab9934c7",
+   "len": 188,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are an expert at summarization. Do n"
+  },
+  {
+   "sha8": "2be79475",
+   "len": 188,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are an expert at summarization. Do n"
+  },
+  {
+   "sha8": "90477828",
+   "len": 188,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are an expert at summarization. Do n"
+  },
+  {
+   "sha8": "3a6af182",
+   "len": 188,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are an expert at summarization. Do n"
+  },
+  {
+   "sha8": "4b03f352",
+   "len": 188,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are an expert at summarization. Do n"
+  },
+  {
+   "sha8": "40cdf539",
+   "len": 188,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are an expert at summarization. Do n"
+  },
+  {
+   "sha8": "e0d1840e",
+   "len": 188,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are an expert at summarization. Do n"
+  },
+  {
+   "sha8": "0014b82b",
+   "len": 188,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are an expert at summarization. Do n"
+  },
+  {
+   "sha8": "433a7d75",
+   "len": 188,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are an expert at summarization. Do n"
+  },
+  {
+   "sha8": "a4eaf9bd",
+   "len": 188,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are an expert at summarization. Do n"
+  },
+  {
+   "sha8": "23499cb8",
+   "len": 188,
+   "class": "locale_default",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / You are an expert at summarization. Do n"
+  },
+  {
+   "sha8": "2ca0f9d3",
+   "len": 99,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / \u092d\u093e\u0930\u0924 \u092e\u0947\u0902 \u092c\u094b\u0932\u0940 \u091c\u093e\u0928\u0947 \u0935\u093e\u0932\u0940 \u0939\u093f\u0902\u0926\u0940 \u0926\u0947\u0935\u0928\u093e\u0917\u0930\u0940 \u0915"
+  },
+  {
+   "sha8": "9df4fa6c",
+   "len": 34,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / \u4e01\u5be7\u306a\u8a00\u8449\u306b\u76f4\u3057\u3066\u304f\u3060\u3055\u3044\u3002"
+  },
+  {
+   "sha8": "9de22b97",
+   "len": 41,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / \u5c07\u9019\u6bb5\u6587\u5b57\u6539\u5f97\u66f4\u5c08\u696d\u4e26\u4ee5\u9999\u6e2f\u7e41\u9ad4\u4e2d\u6587\u56de\u8986\u3002"
+  },
+  {
+   "sha8": "9c0a1379",
+   "len": 29,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / \u63a8\u6572\u3057\u3066\u304f\u3060\u3055\u3044\u3002"
+  },
+  {
+   "sha8": "6d408de2",
+   "len": 27,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / \u6821\u5bf9\u8fd9\u6bb5\u6587\u5b57\uff1a"
+  },
+  {
+   "sha8": "83f0e4ad",
+   "len": 42,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / \u8b93\u9019\u6bb5\u6587\u5b57\u8b80\u8d77\u4f86\u66f4\u5c08\u696d\u4e26\u4ee5\u53f0\u7063\u7e41\u9ad4\u4e2d\u6587\u56de\u8986\u3002"
+  },
+  {
+   "sha8": "6a26b2f3",
+   "len": 36,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / \u8bf7\u628a\u5b83\u7528\u975e\u5e38\u4e66\u9762\u6b63\u5f0f\u7684\u8bed\u6c14\u590d\u8ff0\u3002"
+  },
+  {
+   "sha8": "be121e40",
+   "len": 29,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / \u8fd4\u4fe1\u3057\u3066\u304f\u3060\u3055\u3044\u3002"
+  },
+  {
+   "sha8": "9d1c2646",
+   "len": 38,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / \u9810\u6e2c\u4e0b\u4e00\u500b\u56de\u8986\u4e26\u4ee5\u53f0\u7063\u7e41\u9ad4\u4e2d\u6587\u56de\u8986:"
+  },
+  {
+   "sha8": "c475f94e",
+   "len": 38,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / \u9810\u6e2c\u4e0b\u4e00\u500b\u56de\u8986\u4e26\u4ee5\u9999\u6e2f\u7e41\u9ad4\u4e2d\u6587\u56de\u8986:"
+  },
+  {
+   "sha8": "cb4929ec",
+   "len": 28,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / \u9884\u6d4b\u4e0b\u4e00\u4e2a\u56de\u590d\uff1a"
+  },
+  {
+   "sha8": "22894455",
+   "len": 30,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / \ubb38\uc7a5\uc744 \uad50\uc815\ud574\uc8fc\uc138\uc694"
+  },
+  {
+   "sha8": "9328a19c",
+   "len": 34,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / \uc815\uc911\ud55c \ub9d0\ud22c\ub85c \uace0\uccd0\uc8fc\uc138\uc694."
+  },
+  {
+   "sha8": "268f7ef4",
+   "len": 29,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system / \ud68c\uc2e0\ud574 \uc8fc\uc2ed\uc2dc\uc624:"
+  },
+  {
+   "sha8": "568df42d",
+   "len": 76,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> Chuy\u1ec3n v\u0103n b\u1ea3n \u0111\u01b0\u1ee3c ch\u1ec9 \u0111\u1ecbnh  th\u00e0nh c"
+  },
+  {
+   "sha8": "e97a687e",
+   "len": 70,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> Chuy\u1ec3n v\u0103n b\u1ea3n \u0111\u01b0\u1ee3c ch\u1ec9 \u0111\u1ecbnh th\u00e0nh c\u00e1"
+  },
+  {
+   "sha8": "dade1c09",
+   "len": 66,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> Converti questo testo in un elenco pu"
+  },
+  {
+   "sha8": "7546551b",
+   "len": 98,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> Convierte el texto en vi\u00f1etas utiliza"
+  },
+  {
+   "sha8": "6dc98fed",
+   "len": 53,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> Convierte el texto en vi\u00f1etas."
+  },
+  {
+   "sha8": "46fafb1e",
+   "len": 112,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> Extrae los puntos clave del siguiente"
+  },
+  {
+   "sha8": "d6e98f36",
+   "len": 67,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> Extrae los puntos clave del siguiente"
+  },
+  {
+   "sha8": "ba86faaf",
+   "len": 63,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> Extrai os principais pontos deste tex"
+  },
+  {
+   "sha8": "6f9d041a",
+   "len": 64,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> Extraia os principais pontos deste te"
+  },
+  {
+   "sha8": "9436e39c",
+   "len": 91,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> Extrais les points principaux du text"
+  },
+  {
+   "sha8": "651ada80",
+   "len": 70,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> Extrais les points principaux du text"
+  },
+  {
+   "sha8": "c7771c9f",
+   "len": 68,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> Gj\u00f8r den angitte teksten om til hoved"
+  },
+  {
+   "sha8": "ba656e48",
+   "len": 67,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> Gj\u00f8r den angitte teksten om til kulep"
+  },
+  {
+   "sha8": "7779c255",
+   "len": 65,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> G\u00f6r den angivna texten till en punktl"
+  },
+  {
+   "sha8": "2c4c8762",
+   "len": 65,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> Lav den angivne tekst om til hovedpun"
+  },
+  {
+   "sha8": "01aeb3b3",
+   "len": 62,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> Lav den angivne tekst om til punktteg"
+  },
+  {
+   "sha8": "974e3e41",
+   "len": 62,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> Mache diesen Text zu Aufz\u00e4hlungspunkt"
+  },
+  {
+   "sha8": "5ec90113",
+   "len": 57,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> Mache diesen Text zu Stichpunkten."
+  },
+  {
+   "sha8": "15ba51cb",
+   "len": 62,
+   "class": "released",
+   "in_released_corpus": true,
+   "head": "<turn_start> system<n> Make the given text into bullet point"
+  },
+  {
+   "sha8": "c2650dd3",
+   "len": 58,
+   "class": "released",
+   "in_released_corpus": true,
+   "head": "<turn_start> system<n> Make the given text into keypoints."
+  },
+  {
+   "sha8": "36fa8b23",
+   "len": 93,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> Respond in Australian English. Make t"
+  },
+  {
+   "sha8": "a11eaa1f",
+   "len": 89,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> Respond in Australian English. Make t"
+  },
+  {
+   "sha8": "f2a7052c",
+   "len": 90,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> Respond in British English. Make the "
+  },
+  {
+   "sha8": "987e3a5c",
+   "len": 86,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> Respond in British English. Make the "
+  },
+  {
+   "sha8": "35555840",
+   "len": 91,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> Respond in Canadian English. Make the"
+  },
+  {
+   "sha8": "623045a6",
+   "len": 87,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> Respond in Canadian English. Make the"
+  },
+  {
+   "sha8": "0285faea",
+   "len": 103,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> Respond in English as spoken in Irela"
+  },
+  {
+   "sha8": "24c0bbd4",
+   "len": 99,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> Respond in English as spoken in Irela"
+  },
+  {
+   "sha8": "ca37d262",
+   "len": 107,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> Respond in English as spoken in New Z"
+  },
+  {
+   "sha8": "2b1fcdcd",
+   "len": 103,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> Respond in English as spoken in New Z"
+  },
+  {
+   "sha8": "d91ef72f",
+   "len": 105,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> Respond in English as spoken in Singa"
+  },
+  {
+   "sha8": "81a44019",
+   "len": 101,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> Respond in English as spoken in Singa"
+  },
+  {
+   "sha8": "97577d09",
+   "len": 108,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> Respond in English as spoken in South"
+  },
+  {
+   "sha8": "47f87f8b",
+   "len": 104,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> Respond in English as spoken in South"
+  },
+  {
+   "sha8": "25a1ef79",
+   "len": 89,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> Respond in Indian English. Make the g"
+  },
+  {
+   "sha8": "76ac3c22",
+   "len": 85,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> Respond in Indian English. Make the g"
+  },
+  {
+   "sha8": "9952a578",
+   "len": 87,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> Restructure ce texte en une s\u00e9rie de "
+  },
+  {
+   "sha8": "89b8c7c6",
+   "len": 66,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> Restructure ce texte en une s\u00e9rie de "
+  },
+  {
+   "sha8": "0b193386",
+   "len": 80,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> Skriv om den angivna texten till de v"
+  },
+  {
+   "sha8": "b4ce8ccb",
+   "len": 55,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> The locale of the text is da_DK."
+  },
+  {
+   "sha8": "793bab58",
+   "len": 55,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> The locale of the text is de_AT."
+  },
+  {
+   "sha8": "adfad92e",
+   "len": 55,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> The locale of the text is de_CH."
+  },
+  {
+   "sha8": "78708af9",
+   "len": 55,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> The locale of the text is de_DE."
+  },
+  {
+   "sha8": "3793991a",
+   "len": 55,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> The locale of the text is en_AU."
+  },
+  {
+   "sha8": "5e106088",
+   "len": 55,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> The locale of the text is en_CA."
+  },
+  {
+   "sha8": "0a1bc744",
+   "len": 55,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> The locale of the text is en_GB."
+  },
+  {
+   "sha8": "c7891773",
+   "len": 55,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> The locale of the text is en_HK."
+  },
+  {
+   "sha8": "a457ee57",
+   "len": 55,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> The locale of the text is en_IN."
+  },
+  {
+   "sha8": "26c3e7b7",
+   "len": 55,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> The locale of the text is en_NZ."
+  },
+  {
+   "sha8": "eaa5de87",
+   "len": 55,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> The locale of the text is en_SG."
+  },
+  {
+   "sha8": "8315bee7",
+   "len": 55,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> The locale of the text is en_ZA."
+  },
+  {
+   "sha8": "6ff16be3",
+   "len": 55,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> The locale of the text is es_CL."
+  },
+  {
+   "sha8": "1b93b5bd",
+   "len": 55,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> The locale of the text is es_ES."
+  },
+  {
+   "sha8": "663ca6eb",
+   "len": 55,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> The locale of the text is es_MX."
+  },
+  {
+   "sha8": "16d3a94f",
+   "len": 55,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> The locale of the text is es_US."
+  },
+  {
+   "sha8": "ad6ecc79",
+   "len": 55,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> The locale of the text is fr_BE."
+  },
+  {
+   "sha8": "81e248b1",
+   "len": 55,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> The locale of the text is fr_CA."
+  },
+  {
+   "sha8": "00ee345a",
+   "len": 55,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> The locale of the text is fr_CH."
+  },
+  {
+   "sha8": "ab63557e",
+   "len": 55,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> The locale of the text is fr_FR."
+  },
+  {
+   "sha8": "61109739",
+   "len": 55,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> The locale of the text is it_CH."
+  },
+  {
+   "sha8": "5d726dbc",
+   "len": 55,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> The locale of the text is it_IT."
+  },
+  {
+   "sha8": "b3e00734",
+   "len": 55,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> The locale of the text is ja_JP."
+  },
+  {
+   "sha8": "f3f6303f",
+   "len": 55,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> The locale of the text is ko_KR."
+  },
+  {
+   "sha8": "195b340a",
+   "len": 55,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> The locale of the text is nb_NO."
+  },
+  {
+   "sha8": "05da98f2",
+   "len": 55,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> The locale of the text is nl_BE."
+  },
+  {
+   "sha8": "f8fd8be9",
+   "len": 55,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> The locale of the text is nl_NL."
+  },
+  {
+   "sha8": "747deb75",
+   "len": 55,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> The locale of the text is pt_BR."
+  },
+  {
+   "sha8": "dba825de",
+   "len": 55,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> The locale of the text is pt_PT."
+  },
+  {
+   "sha8": "e4d034d3",
+   "len": 55,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> The locale of the text is sv_SE."
+  },
+  {
+   "sha8": "faf553af",
+   "len": 55,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> The locale of the text is tr_TR."
+  },
+  {
+   "sha8": "3fb6c68a",
+   "len": 55,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> The locale of the text is vi_VN."
+  },
+  {
+   "sha8": "7505570a",
+   "len": 55,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> The locale of the text is zh_CN."
+  },
+  {
+   "sha8": "6ebf741d",
+   "len": 55,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> The locale of the text is zh_HK."
+  },
+  {
+   "sha8": "ae6dbd76",
+   "len": 55,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> The locale of the text is zh_TW."
+  },
+  {
+   "sha8": "bbd6de95",
+   "len": 116,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> Transform the given text into a table"
+  },
+  {
+   "sha8": "0d05c584",
+   "len": 116,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> Transform the given text into a table"
+  },
+  {
+   "sha8": "d567fa28",
+   "len": 79,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> Transform the given text into a table"
+  },
+  {
+   "sha8": "fba46eb3",
+   "len": 79,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> Transform the given text into a table"
+  },
+  {
+   "sha8": "8b6c3ec0",
+   "len": 79,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> Transform the given text into a table"
+  },
+  {
+   "sha8": "a1a2f04c",
+   "len": 79,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> Transform the given text into a table"
+  },
+  {
+   "sha8": "f8d57e9e",
+   "len": 79,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> Transform the given text into a table"
+  },
+  {
+   "sha8": "b8d77c98",
+   "len": 79,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> Transform the given text into a table"
+  },
+  {
+   "sha8": "c8e6dd8e",
+   "len": 79,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> Transform the given text into a table"
+  },
+  {
+   "sha8": "baed5653",
+   "len": 79,
+   "class": "released",
+   "in_released_corpus": true,
+   "head": "<turn_start> system<n> Transform the given text into a table"
+  },
+  {
+   "sha8": "9acae953",
+   "len": 79,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> Transform the given text into a table"
+  },
+  {
+   "sha8": "af43a069",
+   "len": 116,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> Transform the given text into a table"
+  },
+  {
+   "sha8": "21c269e8",
+   "len": 116,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> Transform the given text into a table"
+  },
+  {
+   "sha8": "d8847187",
+   "len": 116,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> Transform the given text into a table"
+  },
+  {
+   "sha8": "45b1c48d",
+   "len": 116,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> Transform the given text into a table"
+  },
+  {
+   "sha8": "2c66211b",
+   "len": 116,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> Transform the given text into a table"
+  },
+  {
+   "sha8": "bf7857c0",
+   "len": 116,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> Transform the given text into a table"
+  },
+  {
+   "sha8": "9b7f32d3",
+   "len": 116,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> Transform the given text into a table"
+  },
+  {
+   "sha8": "e1a65c1b",
+   "len": 116,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> Transform the given text into a table"
+  },
+  {
+   "sha8": "6037910d",
+   "len": 116,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> Transform the given text into a table"
+  },
+  {
+   "sha8": "2f997b30",
+   "len": 116,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> Transform the given text into a table"
+  },
+  {
+   "sha8": "5a774651",
+   "len": 116,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> Transform the given text into a table"
+  },
+  {
+   "sha8": "dbb1b40f",
+   "len": 116,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> Transform the given text into a table"
+  },
+  {
+   "sha8": "4c26239f",
+   "len": 116,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> Transform the given text into a table"
+  },
+  {
+   "sha8": "8ccafcb1",
+   "len": 116,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> Transform the given text into a table"
+  },
+  {
+   "sha8": "d82bcb69",
+   "len": 116,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> Transform the given text into a table"
+  },
+  {
+   "sha8": "d8b3bef6",
+   "len": 116,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> Transform the given text into a table"
+  },
+  {
+   "sha8": "34b09702",
+   "len": 116,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> Transform the given text into a table"
+  },
+  {
+   "sha8": "421d568f",
+   "len": 116,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> Transform the given text into a table"
+  },
+  {
+   "sha8": "6cad4723",
+   "len": 66,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> Transforma este texto numa lista de m"
+  },
+  {
+   "sha8": "77ea9a1d",
+   "len": 69,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> Transforme este texto em uma lista de"
+  },
+  {
+   "sha8": "dd9b6000",
+   "len": 63,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> Trasforma il testo dato in punti chia"
+  },
+  {
+   "sha8": "ef1a8de3",
+   "len": 47,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> Verilen metni liste yap."
+  },
+  {
+   "sha8": "b3602871",
+   "len": 65,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> Verilen metnin \u00f6nemli noktalar\u0131n\u0131 olu"
+  },
+  {
+   "sha8": "1a4e7e84",
+   "len": 293,
+   "class": "released",
+   "in_released_corpus": true,
+   "head": "<turn_start> system<n> You are an assistant which helps the "
+  },
+  {
+   "sha8": "665af12a",
+   "len": 328,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> You are an assistant which helps the "
+  },
+  {
+   "sha8": "ee6e8c7c",
+   "len": 315,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> You are an assistant which helps the "
+  },
+  {
+   "sha8": "052eef8a",
+   "len": 326,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> You are an assistant which helps the "
+  },
+  {
+   "sha8": "3f2d9eee",
+   "len": 325,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> You are an assistant which helps the "
+  },
+  {
+   "sha8": "ba75ad09",
+   "len": 329,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> You are an assistant which helps the "
+  },
+  {
+   "sha8": "8522a2e1",
+   "len": 327,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> You are an assistant which helps the "
+  },
+  {
+   "sha8": "8587aa29",
+   "len": 331,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> You are an assistant which helps the "
+  },
+  {
+   "sha8": "5bbd9bc0",
+   "len": 329,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> You are an assistant which helps the "
+  },
+  {
+   "sha8": "0f3088c2",
+   "len": 332,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> You are an assistant which helps the "
+  },
+  {
+   "sha8": "f8495084",
+   "len": 325,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> You are an assistant which helps the "
+  },
+  {
+   "sha8": "f7a817a1",
+   "len": 325,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> You are an assistant which helps the "
+  },
+  {
+   "sha8": "fb71f217",
+   "len": 326,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> You are an assistant which helps the "
+  },
+  {
+   "sha8": "7ebb2ec4",
+   "len": 313,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> You are an assistant which helps the "
+  },
+  {
+   "sha8": "34713cfb",
+   "len": 325,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> You are an assistant which helps the "
+  },
+  {
+   "sha8": "324cc7c4",
+   "len": 326,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> You are an assistant which helps the "
+  },
+  {
+   "sha8": "1a2bbddc",
+   "len": 324,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> You are an assistant which helps the "
+  },
+  {
+   "sha8": "fddafeb5",
+   "len": 328,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> You are an assistant which helps the "
+  },
+  {
+   "sha8": "b14d4086",
+   "len": 329,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> You are an assistant which helps the "
+  },
+  {
+   "sha8": "5a8df4c4",
+   "len": 331,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> You are an assistant which helps the "
+  },
+  {
+   "sha8": "8b906502",
+   "len": 336,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> You are an assistant which helps the "
+  },
+  {
+   "sha8": "b0df71e2",
+   "len": 326,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> You are an assistant which helps the "
+  },
+  {
+   "sha8": "1b2b47f6",
+   "len": 325,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> You are an assistant which helps the "
+  },
+  {
+   "sha8": "414323ce",
+   "len": 326,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> You are an assistant which helps the "
+  },
+  {
+   "sha8": "64d23ab5",
+   "len": 341,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> You are an assistant which helps the "
+  },
+  {
+   "sha8": "01968cec",
+   "len": 338,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> You are an assistant which helps the "
+  },
+  {
+   "sha8": "3ea02a09",
+   "len": 326,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> You are an assistant which helps the "
+  },
+  {
+   "sha8": "7fd00d26",
+   "len": 330,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> You are an assistant which helps the "
+  },
+  {
+   "sha8": "836729a1",
+   "len": 477,
+   "class": "released",
+   "in_released_corpus": true,
+   "head": "<turn_start> system<n> You are an assistant which helps the "
+  },
+  {
+   "sha8": "5a44bd32",
+   "len": 512,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> You are an assistant which helps the "
+  },
+  {
+   "sha8": "67668ecc",
+   "len": 499,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> You are an assistant which helps the "
+  },
+  {
+   "sha8": "a1bd56f1",
+   "len": 510,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> You are an assistant which helps the "
+  },
+  {
+   "sha8": "95f053cd",
+   "len": 509,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> You are an assistant which helps the "
+  },
+  {
+   "sha8": "5d14725d",
+   "len": 513,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> You are an assistant which helps the "
+  },
+  {
+   "sha8": "e24ee4ce",
+   "len": 511,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> You are an assistant which helps the "
+  },
+  {
+   "sha8": "268027d5",
+   "len": 515,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> You are an assistant which helps the "
+  },
+  {
+   "sha8": "412e7033",
+   "len": 513,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> You are an assistant which helps the "
+  },
+  {
+   "sha8": "80150fbd",
+   "len": 516,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> You are an assistant which helps the "
+  },
+  {
+   "sha8": "7801d1bd",
+   "len": 509,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> You are an assistant which helps the "
+  },
+  {
+   "sha8": "eacfebfa",
+   "len": 509,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> You are an assistant which helps the "
+  },
+  {
+   "sha8": "15e15e9d",
+   "len": 510,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> You are an assistant which helps the "
+  },
+  {
+   "sha8": "18f78a76",
+   "len": 497,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> You are an assistant which helps the "
+  },
+  {
+   "sha8": "2064ead2",
+   "len": 509,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> You are an assistant which helps the "
+  },
+  {
+   "sha8": "1b4c23fe",
+   "len": 510,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> You are an assistant which helps the "
+  },
+  {
+   "sha8": "84d46792",
+   "len": 508,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> You are an assistant which helps the "
+  },
+  {
+   "sha8": "fcce1c88",
+   "len": 512,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> You are an assistant which helps the "
+  },
+  {
+   "sha8": "19a12c3f",
+   "len": 513,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> You are an assistant which helps the "
+  },
+  {
+   "sha8": "f89fb3c8",
+   "len": 515,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> You are an assistant which helps the "
+  },
+  {
+   "sha8": "591fb77a",
+   "len": 520,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> You are an assistant which helps the "
+  },
+  {
+   "sha8": "d6e65703",
+   "len": 510,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> You are an assistant which helps the "
+  },
+  {
+   "sha8": "63936ab3",
+   "len": 509,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> You are an assistant which helps the "
+  },
+  {
+   "sha8": "e903ccf2",
+   "len": 510,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> You are an assistant which helps the "
+  },
+  {
+   "sha8": "d1be0be6",
+   "len": 525,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> You are an assistant which helps the "
+  },
+  {
+   "sha8": "a22c7fb2",
+   "len": 522,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> You are an assistant which helps the "
+  },
+  {
+   "sha8": "908b3b71",
+   "len": 510,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> You are an assistant which helps the "
+  },
+  {
+   "sha8": "c1dcf9dc",
+   "len": 514,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> You are an assistant which helps the "
+  },
+  {
+   "sha8": "1ddfbebf",
+   "len": 83,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> Zet de opgegeven tekst om in een lijs"
+  },
+  {
+   "sha8": "b9069116",
+   "len": 63,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> Zet de opgegeven tekst om in kernpunt"
+  },
+  {
+   "sha8": "76cb13f7",
+   "len": 34,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> \u5c06\u6240\u7ed9\u6587\u672c\u6574\u7406\u6210\u8981\u70b9\u3002"
+  },
+  {
+   "sha8": "bd71f943",
+   "len": 36,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> \u5c06\u6240\u7ed9\u6587\u672c\u8f6c\u6362\u4e3a\u9879\u76ee\u5217\u8868\u3002"
+  },
+  {
+   "sha8": "aa391250",
+   "len": 48,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> \u5c07\u6240\u63d0\u4f9b\u7684\u6587\u5b57\u6574\u7406\u70ba\u5217\u9ede\u9805\u76ee\u4e26\u4ee5\u9999\u6e2f\u7e41\u9ad4\u4e2d\u6587\u56de\u61c9\u3002"
+  },
+  {
+   "sha8": "1cc56554",
+   "len": 48,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> \u5c07\u6240\u63d0\u4f9b\u7684\u6587\u5b57\u6574\u7406\u70ba\u5e7e\u500b\u91cd\u9ede\u4e26\u4ee5\u9999\u6e2f\u7e41\u9ad4\u4e2d\u6587\u56de\u61c9\u3002"
+  },
+  {
+   "sha8": "40ffe1e1",
+   "len": 47,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> \u5c07\u63d0\u4f9b\u7684\u6587\u5b57\u6574\u7406\u6210\u5217\u9ede\u9805\u76ee\u4e26\u4ee5\u53f0\u7063\u7e41\u9ad4\u4e2d\u6587\u56de\u61c9\u3002"
+  },
+  {
+   "sha8": "d21d349a",
+   "len": 48,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> \u5c07\u63d0\u4f9b\u7684\u6587\u5b57\u6574\u7406\u6210\u5e7e\u500b\u91cd\u9ede\u4e26\u4ee5\u53f0\u7063\u7e41\u9ad4\u4e2d\u6587\u56de\u61c9\u3002\u3002"
+  },
+  {
+   "sha8": "fa42ce3b",
+   "len": 35,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> \u7b87\u6761\u66f8\u304d\u306b\u3057\u3066\u304f\u3060\u3055\u3044\u3002"
+  },
+  {
+   "sha8": "c8f8fed6",
+   "len": 40,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> \u8981\u70b9\u3092\u7b87\u6761\u66f8\u304d\u3067\u307e\u3068\u3081\u3066\u304f\u3060\u3055\u3044\u3002"
+  },
+  {
+   "sha8": "d4b90830",
+   "len": 44,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> \uc8fc\uc5b4\uc9c4 \ubb38\uc7a5\uc744 \uae00\uba38\ub9ac \uae30\ud638\ub85c \ubc14\uafd4\uc8fc\uc138\uc694"
+  },
+  {
+   "sha8": "c2de7038",
+   "len": 43,
+   "class": "other",
+   "in_released_corpus": false,
+   "head": "<turn_start> system<n> \uc8fc\uc5b4\uc9c4 \ubb38\uc7a5\uc744 \uc8fc\uc694\ud56d\ubaa9\uc73c\ub85c \ubc14\uafd4\uc8fc\uc138\uc694"
+  }
+ ]
+}
